@@ -119,32 +119,33 @@
     text-transform: capitalize;
   }
   .side-bar-header .header{
+   position:relative;
     padding-bottom: 10px;
-    position: relative;
   }
   .side-bar-header .header::after{
-    content:'';
-    position:absolute;
-    top:100%;
-    left:0;
-    width:60%;
-    height:2px;
-    background:var(--Primary);
+   content:'';
+   position:absolute;
+   top:100%;
+   left:0;
+   width:60%;
+   height:2px;
+   background:var(--Primary);
+
+   
+  }
+
  
-    
-   }
   .Side-bar{
     background-color:rgba(0, 0,0, .5);
     height: 600px;
     
   }
-  
    
   /* start form style */
  .action-form{
     display: flex;
     justify-content: end;
-   margin-top: -180px;
+   
  padding: 30px 0 80px 0;
   }
 
@@ -155,22 +156,26 @@
     color: #fff;
     padding: 7px 10px;
     border-radius: 5px;
-   
+   text-transform:uppercase;
   } 
   .cancel{
     background-color: var(--Grey);
     margin-right: 20px;
    
   }
-  .save{
+  .upload{
     background: var(--Primary);
  
+  }
+  .icons{
+    color:var(--Primary);
+    font-size: 20px;
   }
   .form-content{
     margin-top: -150px;
   }
    .input-form{
-    background-color: var(--Grey);
+    background-color: var(--black);
     outline: none;
     border: none;
     color: #fff;
@@ -182,7 +187,31 @@
     color: #fff;
     height:40px;
    }
-   .email-addres{
-    width: 80%;
-   }
+   
   /* end form style */
+.uploadecertificate h2{
+  padding:30px 0;
+  text-transform: capitalize;
+  font-size:20px;
+  font-weight:var(--fw-400);
+}
+.uploade-content{
+  border:1px dashed var(--Primary);
+  text-align:center;
+  text-transform:capitalize;
+  padding:80px 0;
+  background:var(--black);
+}
+.uploade-content h3{
+  padding:30px 0;
+  text-transform: capitalize;
+  font-size:20px;
+  font-weight:var(--fw-400);
+}
+.uploade-content a{
+  color:var(--Primary);
+}
+.uploade-content p{
+  font-size:16px;
+  color:var( --Grey);
+}
