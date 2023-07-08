@@ -1,0 +1,67 @@
+button{background-color: #bf9b30;
+    border:none;
+    padding: 10px 20px;
+    border-radius: 7px !important;}
+    button:hover{background-color: #e7bc3c !important;;}
+    .card{color: white;
+    background-color: #1a1919 !important;}
+    .card .card-title,.card-text{color: white;
+        left:1.5rem;
+        line-height: 4rem;
+        top:6.3rem;
+    position: absolute;}
+    
+    body{background-color: #2a2a2a !important;}
+    #search {
+        background: rgba(128, 128, 128, 0.438);
+        border: 1px solid rgba(128, 128, 128, 0.438);
+        border-radius: 50px;
+        padding: 7px 70px;
+        width: 100%; /* Add this line to make the search input full width */
+      }
+      
+      #search::placeholder {
+        text-align: center;
+        color: white;
+      }
+    .search-container {float: right;
+        position: relative;
+        display: inline-block;
+      }
+    .card button{width: 95%;background-color: #bf9b30;
+    border: none;
+    text-align: center;}
+    .jobs{color: #fff;
+    line-height: 15px;}
+    span{color: #bf9b30;
+        font-weight: 600;
+    }
+    .bg-image{
+        background: url(../../images/secondary_background.jpg);
+        
+          background-position: center;
+          background-size: cover;
+          min-height: 100vh;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+        position: relative;
+       
+      }
+      .bg-layer {
+        background-color: rgba(26, 25, 25, 0.9);
+        height: 100% !important;
+        width: 100%;
+        position: absolute;
+        background-attachment: fixed;
+    
+      }
+    .card img{padding: 1rem 1rem 0 1rem;
+    background-image: url(../../images/Rectangle\ 66.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 235px 134px;}
+    .card .card-link{color: white !important;
+        font-weight: 600;
+    }
+    .row{justify-content: space-evenly;}
+    
