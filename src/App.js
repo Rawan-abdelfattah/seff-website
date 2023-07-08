@@ -1,12 +1,15 @@
 import './App.css';
-
-import NewsPage from './pages/ShowNewsPage/NewsPage';
+import Header from './components/Header/Header';
+ import CerateUpdateUser from './pages/CreateUpdateUser/CerateUpdateUser'
+import Footer from './components/Footer/Footer';
 
 
 function App() {
   return (
     <div className="App">
-      <NewsPage />
+      <Header/>
+      <CerateUpdateUser/>
+      <Footer/>
     </div>
   );
 }

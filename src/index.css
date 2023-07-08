@@ -1,82 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+:root{
+    /* Colors */
+    --Primary: #BF9B30;
+    --secondary:#EDD587;
+    --Green: #34A853;
+    --Red: #ea4335;
+    --Grey: Grey;
+    --black: #1A1919;
+    --white:#fff;
+    --alpha-bg:#1515167e;
+    --top-bg:#151516be;
+    --footer-bg:#212121;
+    --content-bg:#2a2a2a;
+  
+    /* Colors of Button */
+    --btn-defauit: #BF9B30;
+    --btn-hover: #e7bc3c;
+    --btn-disabled: #e1e1e1;
 
-:root {
-  /* Colors */
-  --Primary: #BF9B30;
-  --Secondary: #EDD587;
-  --Green: #34A853;
-  --Red: #ea4335;
-  --Grey: #D0D0D0;
-  --Black: #1A1919;
-  --White-for-txt: #FFFFFF;
-  --White-for-icon: #F8F8F8;
-  --Gradient-bg: #2a2a2a;
-  --Alpha-bg: #1515167e;
-  --Top-bg: #151516be;
-  --Footer-bg: #212121;
+    /* Transition */
+    --transition-1: all 0.4s ease;
 
-  /* Colors of Button */
-  --btn-defauit: #BF9B30;
-  --btn-hover: #e7bc3c;
-  --btn-disabled: #e1e1e1;
+    /* Font-family */
+    --font-family: 'Open Sans', sans-serif;
+    --font-semiBold: 600px;
+    --font-regular: 400px;
 
-  /* Transition */
-  --transition-1: all 0.3s ease;
-  --transition-2: all 0.4s ease;
+    /* font-weight */
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
 
-  /* linear gradient */
-  --linear-gradient: -webkit-linear-gradient(left, #2a2929, #1a1919);
+    /* typography */
+    --h1-48: 48px;
+    --h1-50: 50px;
+    --h1-52: 52px;
+    --h1-54: 54px;
+    --h1-56: 56px;
+    --h1-58: 58px;
+    --h1-60: 60px;
 
-  /* Font-family */
-  --font-family: 'Open Sans', sans-serif;
-  --font-semiBold: 600px;
-  --font-regular: 400px;
+    --h2-34: 34px;
+    --h2-36: 36px;
+    --h2-38: 38px;
+    --h2-40: 40px;
+    --h2-42: 42px;
+    --h2-44: 44px;
+    --h2-46: 46px;
+    --h2-48: 48px;
+    --h2-50: 50px;
 
-  /* font-weight */
-  --fw-300: 300;
-  --fw-400: 400;
-  --fw-500: 500;
-  --fw-600: 600;
+    --h4-18:18px;
+    --h4-20:20px;
+    --h4-22:22px;
 
-  /* typography */
-  --h1-48: 48px;
-  --h1-50: 50px;
-  --h1-52: 52px;
-  --h1-54: 54px;
-  --h1-56: 56px;
-  --h1-58: 58px;
-  --h1-60: 60px;
-
-  --h2-34: 34px;
-  --h2-36: 36px;
-  --h2-38: 38px;
-  --h2-40: 40px;
-  --h2-42: 42px;
-  --h2-44: 44px;
-  --h2-46: 46px;
-  --h2-48: 48px;
-  --h2-50: 50px;
-
-  --h4-18: 18px;
-  --h4-20: 20px;
-  --h4-22: 22px;
-
-  --p-14: 14px;
-  --p-16: 16px;
-  --p-18: 18px;
-  --p-20: 20px;
-  --p-22: 22px;
-  --p-24: 24px;
+    --p-14:14px;
+    --p-16:16px;
+    --p-18:18px;
+    --p-20:20px;
+    --p-22:22px;
+    --p-24:24px;  
 }
-
 body {
   margin: 0;
   font-family: var(--font-family);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
