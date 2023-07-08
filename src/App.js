@@ -1,18 +1,40 @@
-import { Routes,Route,HashRouter} from 'react-router-dom';
-import Student_Portal from './Pages/Student_Portal/Student_Portal';
-import Instructor_Portal from './Pages/Instructor_Portal/Instructor_Portal'
+// import logo from './logo.svg';
+import "./App.css";
+import "@fortawesome/fontawesome-free/css/all.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import MainLayout from "./Layouts/MainLayout";
+import Sidebar from "./components/Sidebar/Sidebar";
+import { Toggle } from "./components/Toggle/Toggle";
+import AdminPanel from "./components/AdminPanel/AdminPanel";
+
+
+
+
 function App() {
+  let routes = createBrowserRouter([
+    {
+      pass: "",
+      element: <MainLayout />,
+      children: [
+        { index: true, element: <AdminPanel /> },
+        { path: "AdminPanel", element: <AdminPanel /> },
+
+
+       
+      ],
+    },
+  ]);
   return (
-    <div >
-     <HashRouter>
-      <Routes>
-      <Route path="/" element={<Student_Portal/>}/>
-      {/* <Route path="/" element={<Instructor_Portal/>}/> */}
-      </Routes>
-    </HashRouter>
+    <>
+      <RouterProvider router={routes} />
+{/* 
+      <Toggle>
+      <Sidebar />
+      <ArticleList />
+    </Toggle> */}
 
-
-    </div>
+    </>
   );
 }
 

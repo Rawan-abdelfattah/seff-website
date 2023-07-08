@@ -1,30 +1,16 @@
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.js";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
-// import ExsamResults from "./pages/Home/ExsamResults";
-import { ThemeProvider } from "react-bootstrap";
-import JobApp from "./pages/Job Appliction/JobApp";
-// import JobAppliction from "./pages/JobAppliction";
-// import JobShowPage from "./pages/Home/JobShowPage";
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <JobApp />,
-  },
-]);
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <>
-    <RouterProvider router={router}>
-      <ThemeProvider>
-        <JobApp />
-      </ThemeProvider>
-    </RouterProvider>
-  </>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
