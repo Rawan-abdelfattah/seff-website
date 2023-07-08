@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import Sidebarmobile from "../Sidebarmobile/Sidebarmobile";
+import '../../style/style.css';
+
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default function () {
@@ -115,42 +117,24 @@ export default function () {
                      </div>
                      <div className="col-lg col-6">Monday , june 5th <br></br> 12:30pm </div>
                      <div className="col-lg col-md-12 text-end">
-                       <i className="fa-regular fa-pen-to-square main-color fa-xl m-1 hover-color" />
-                       <i className="fa-regular fa-trash-can main-color fa-xl m-1 hover-color" />
+                       <i className="fa-regular fa-pen-to-square main-color fa-xl m-1 hover-color icon" />
+                       <i className="fa-regular fa-trash-can main-color fa-xl m-1 hover-color icon" />
                      </div>
                    </div>
                  </div>
                </div>
             ))}
-            {/* <div className="my-2">
-              <div className="w-100">
-                <div className="row Black-div p-3 ">
-                  <div className="col">Here's the article</div>
-                  <div className="col">Tech</div>
-                  <div className="col">
-                    <button className="rounded-btn btn Disabled-bg text-white">
+               {/* <button className="rounded-btn btn Disabled-bg text-white">
                       Draft
-                    </button>
-                  </div>
-                  <div className="col">
-                    Monday, June 5th
-                    <br />
-                    12:30pm
-                  </div>
-                  <div className="col">
-                    <i className="fa-regular fa-pen-to-square main-color fa-xl p-1 hover-color" />
-                    <i className="fa-regular fa-trash-can main-color fa-xl p-1 hover-color" />
-                  </div>
-                </div>
-              </div>
-            </div> */}
+                    </button> */}
+                    
             {/* End of Article Items */}
 
             {/* Pagination */}
             <div className="row mt-3 mb-3">
               <div className="col text-end">
                 <i
-                  className="fa-solid fa-circle-chevron-left main-color fa-xl hover-color "
+                  className="fa-solid fa-circle-chevron-left main-color fa-xl hover-color icon "
                   onClick={prePage}
                 ></i>
 
@@ -171,7 +155,7 @@ export default function () {
                   </button>
                 ))}
                 <i
-                  className="fa-solid fa-circle-chevron-right main-color fa-xl hover-color"
+                  className="fa-solid fa-circle-chevron-right main-color fa-xl hover-color icon"
                   onClick={nextPage}
                 ></i>
               </div>
