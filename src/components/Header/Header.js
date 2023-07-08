@@ -9,10 +9,10 @@ import './Header.css';
 
 const Header = () => {
   return (
-      <section className='header position-absolute top-0 left-0 w-100 ' id='header' >
+      <section className='header position-absolute top-0 left-0 w-100' id='header'>
         <TopNav />
         <Navbar expand="lg">
-          <Container fluid='xl' className='header-container pt-5'>
+          <Container fluid='xl' className='header-container p-0'>
             <Navbar.Brand>
               <img className='header-logo' src={logo}/>
             </Navbar.Brand>
@@ -46,7 +46,7 @@ const Header = () => {
                   <NavDropdown.Item href="course3" className='text-uppercase text-white'>Course3</NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="#jobs" className='nav-link text-uppercase text-white  position-relative'>Jobs</Nav.Link>
-                <Nav.Link><Button variant="warning" className='btn-contact text-uppercase text-white position-relative  '>Contact Us</Button></Nav.Link>
+                <Nav.Link><Button variant="warning" className='btn-contact text-uppercase text-white position-relative'>Contact Us</Button></Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
