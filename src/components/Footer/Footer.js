@@ -1,6 +1,6 @@
 import React from 'react';
-import Icon from '@mdi/react';
-import { mdiEmailOpenMultipleOutline } from '@mdi/js';
+// import Icon from '@mdi/react';
+// import { mdiEmailOpenMultipleOutline } from '@mdi/js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faPhoneVolume} from '@fortawesome/free-solid-svg-icons';
 import {faFacebook,faTwitter,faInstagram,faLinkedin} from '@fortawesome/free-brands-svg-icons';
@@ -45,7 +45,7 @@ const Footer = () => {
                     <div className='footer-contact'>
                         <div className='email d-flex justify-content-md-end justify-content-start text-white'>
                             <p className='me-2 mt-1'>sefffuture@gmail.com</p>
-                            <p><Icon path={mdiEmailOpenMultipleOutline} size={1} className='email-icon d-md-block d-none'/></p>
+                            {/* <p><Icon path={mdiEmailOpenMultipleOutline} size={1} className='email-icon d-md-block d-none'/></p> */}
                         </div>
                         <div className='phone d-flex justify-content-md-end justify-content-start text-white'>
                             <p className='me-2'>+20 109 8481 288 <br/>+20 155 5177 645</p>
