@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Certifications{
+    background-color: var(--footer-bg);
+ 
+
+
+}
+.Certifications h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.57px;
+    color: var( --white);
+    text-transform: capitalize;
+}
+.certification-content h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.05px;
+    padding-bottom: 10px;
+}
+.btn-download{
+        text-transform: capitalize;
+        background-color: var(--btn-defauit)!important;
+        border: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19.36px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+
+}
+.btn-download:hover{
+    background-color: var(--btn-hover)!important;
+}
+.certification-download{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:center;
+    margin-top:50px ;
+    background-color: var(--course);
+    border-radius: 5px;
+    padding: 15px;
+
+}
+.instructor-date{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: var(--white);
+    line-height: 19.36px;
+    font-weight: 400;
+}
+.instructor-date p{
+    padding-right: 15px;
+
+}
+.instructor-date span{
+    color: var(--Primary);
+    font-weight: 600;
+
+
+}
+
+@media (max-width:991px)  {
+    .certification-content h2{
+
+        font-size: 20px;
+        margin-top: 20px;
+
+    }
+    .instructor-date p{
+        padding-right: 0px;
+        font-size: 15px;
+
+    }
+
+    .btn-download{
+        text-transform: uppercase;
+        margin-left: auto;
+        margin-bottom: 20px;
+}
+
+
+}

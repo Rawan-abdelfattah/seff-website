@@ -6,13 +6,17 @@
     --Green: #34A853;
     --Red: #ea4335;
     --Grey: Grey;
-    --black: #1A1919;
+    --black: #1B1A1AED;
     --white:#fff;
     --alpha-bg:#1515167e;
-    --top-bg:#151516be;
-    --footer-bg:#212121;
+    --top-bg: #1B1A1AED;
+    --footer-bg:#1A1A1A;
     --content-bg:#2a2a2a;
-  
+    --exam-today:#D9D9D91C;
+    --course:#1111118F;
+
+
+
     /* Colors of Button */
     --btn-defauit: #BF9B30;
     --btn-hover: #e7bc3c;
@@ -60,14 +64,14 @@
     --p-18:18px;
     --p-20:20px;
     --p-22:22px;
-    --p-24:24px;  
+    --p-24:24px;
 }
 body {
   margin: 0;
   font-family: var(--font-family);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
