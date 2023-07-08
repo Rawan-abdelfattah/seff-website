@@ -1,0 +1,22 @@
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style: none;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  body{
+ 
+    background-color: #d68ec4;
+    color: #ffffff;
+    height: 1000px;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+ .containter{
+  width: 90%;
+  margin: auto;
+ }
+ 
