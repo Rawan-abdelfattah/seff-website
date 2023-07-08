@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <section className='home'>
        <Background/>
-       {/* <Content/> */}
+       <Content/>
        <ButtonTop/>
     </section>
   )

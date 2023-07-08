@@ -1,0 +1,71 @@
+.admin_Panel{
+    background-image: url('/src/assets/images/secondary_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%!important;
+    z-index: 0 !important;
+    color: #FFF;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+    padding-top: 150px !important;
+}
+.admin_Panel .line{
+    border-bottom: 1px solid #EDD587;
+    width: 89px !important;
+}
+.admin_Panel .title_line{
+    border-bottom: 1px solid #EDD587;
+    width: 422px
+}
+
+.admin_Panel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1!important;
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.89) 0%, rgba(27, 26, 26, 0.93) 47.92%, #1A1919 100%);
+} 
+.admin_Panel .btn{
+    border-radius: 5px ;
+    border: none !important;
+    background:var( --btn-default);
+    width: 150px!important;
+}
+.admin_Panel .btn:hover{
+    background-color:var( --btn-hover );
+    color: #fff;
+}
+.admin_Panel .table{
+    font-size: 14px!important;
+    background-color: rgba(0, 0, 0, 0.19)!important;
+}
+.admin_Panel tbody, td, tfoot, th, thead, tr {
+    border: none!important;
+}
+.pagination .icon{
+    color:var(--Primary);
+}
+.pagination li a{
+    background: transparent;
+    border: none;
+    color: #fff;
+    gap: -1;
+    
+ }
+ .pagination li a:hover{
+    background-color:var(--Primary);
+    color: #fff;
+ }
+ @media(max-width:767px){
+ 
+   .admin_Panel .btn{
+    width: 100%;
+   }
+   .pagination{
+    display: none;
+   }
+ 
+ }
