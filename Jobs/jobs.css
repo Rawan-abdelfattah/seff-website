@@ -1,0 +1,210 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+section {
+  background-color: var(--Top-bg);
+  font-family: var(--font-family);
+}
+.job-screen {
+  background-color:transparent;
+  color: #fff;
+  font-family: var(--font-family);
+}
+/*Search section */
+
+.form-control {
+  width: 70%;
+  border-radius: 5px 0px 0px 5px / 5px 0px 0px 5px;
+  display: inline-block;
+}
+body{background-color: var(--content-bg) !important;}
+/* .btn {
+  width: 30%;
+  border: none;
+  background-color: var(--btn-defauit);
+  border-radius: 0;
+  border-radius: 0% 5px 5px 0% / 0% 5px 5px 0%;
+  vertical-align: baseline;
+  color: #fff;
+  font-weight: var(--fw-600);
+}
+.btn:hover {
+  background-color: var(--btn-hover);
+} */
+@media (max-width: 767px) {
+  .form-control {
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  .btn1 {
+    width: 100%;
+    border-radius: 5px;
+  }
+}
+
+
+
+
+  .bg-image{
+    background: url(./secondary_background.jpg);
+    
+      background-position: center;
+      background-size: cover;
+      min-height: 100vh;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    position: relative;
+   
+  }
+  .bg-layer {
+    background-color: rgba(26, 25, 25, 0.7);
+    height: 100% !important;
+    width: 100%;
+    position: absolute;
+  
+  }
+.card{background-color: rgba(26, 25, 25, 0.9) !important;
+    margin-top: 200px !important;
+  color: white !important;
+  height: 250px;
+  margin: auto;}
+  .btn1{background-color: var(--btn-defauit)!important;
+  border: none!important;}
+  .card-text p{line-height: 10px!important;}
+  .btn2{background: transparent !important;
+      border-color:  var(--Primary) !important; float: "right"}
+    
+ .itlogo{width: 3.3rem; height: 40px;}
+  p{
+    /* font-size: var( --p-14)!important; */
+  font-weight: var(--fw-400);}
+  .card-Title{padding-left: 100px !important;}
+  .card-subtitle{font-size: var( --p-14);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .input-group {
+    width: 80%;
+  }
+  .input-group-text {
+    text-align: center;
+  
+    background-color: var(--Primary);
+    width: 30%;
+    color: #fff !important;
+    font-weight: var(--fw-600);
+    justify-content: center;
+  }
+  input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: red;
+  }
+  
+  .mainLoginInput::-webkit-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: var(--Primary);
+  }
+  
+  .mainLoginInput::-moz-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: hsl(9, 40%, 60%);
+  }
+  
+  .mainLoginInput:-ms-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: hsl(9, 40%, 60%);
+  }
+  .menu-job {
+    background-color: rgba(0, 0, 0, 0.19);
+    width: 362px;
+    height: 775px;
+    color: var(--white);
+    border-radius: 5px;
+  }
+  .menu-section {
+    padding: 20px;
+  }
+  .contacts-job {
+    background-color: rgba(0, 0, 0, 0.19);
+    width: 891px;
+    height: 775px;
+  }
+  .fitter-container {
+    width: 310px;
+    height: 62px;
+    background-color: rgba(17, 17, 17, 0.56);
+  }
+  /* .filter {
+  } */
+  .clear-all {
+    color: var(--Primary);
+    border-radius: 5px;
+  }
+  /* .location-form {
+    width: 100%;
+    color: #fff;
+  } */
+  /*--------Select form*/
+  .form-select {
+    width: 95%;
+    height: 49px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgba(86, 85, 85, 0.079);
+    --bs-form-select-bg-img: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3e%3cpath fill=%27none%27 stroke=%27%23343a40%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27m2 5 6 6 6-6%27/%3e%3c/svg%3e);
+  
+    border-color: #00000000 !important;
+    border-bottom: 1px solid #efefef !important;
+  }
+  
+  .form-select:focus {
+    background-color: rgba(86, 85, 85, 0.079);
+    text-align: center;
+    background-color: rgba(217, 217, 217, 0.17);
+    border-color: #00000000 !important;
+    outline: 0;
+    transition: all 0.3s ease-in;
+  }
+  option.options-location {
+    color: #fff;
+    background-color: #292828 !important;
+  }
+  /* Check boxs */
+  .form-check-input{background-color: transparent;
+    border-color: var(--white);}
+  .form-check-input:checked {
+    background-color: #fd9d0d;
+  }
+  
