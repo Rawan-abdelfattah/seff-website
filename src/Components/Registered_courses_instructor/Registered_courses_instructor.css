@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.Registered_courses{
+    background-color: var(--footer-bg);
+    height: 100vh;
+    padding-top: 50px ;
+}
+.Registered_courses .Courses-exam{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Registered_courses h2{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.57px;
+    color: var(--white);
+}
+.course{
+    margin-top:50px ;
+    background-color: var(--course);
+    border-radius: 5px;
+    padding: 15px;
+
+}
+.courses{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+.course h2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    color: var(--white);
+    text-transform: capitalize;
+}
+.course p{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: var(--white);
+}
+.level-icon span{
+    color: var(--Primary);
+}
+.level-btn{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.icon-instructor{
+    margin-left: 9rem;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.icon-instructor span{
+    color: var(--white);
+    font-weight: 700;
+    line-height: 19.36px;
+    text-transform: capitalize;
+}
+.level-btn h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+    text-transform: uppercase;
+}
+.Registered_courses Button{
+        text-transform: uppercase;
+        background-color: var(--btn-defauit)!important;
+        border: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19.36px;
+   }
+.Registered_courses Button:hover{
+        background-color: var(--btn-hover)!important;
+    }
+
+.exams{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+
+}
+.exams .course-exam{
+    padding-left: 15px;
+}
+.course-exam h2{
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    color: var(--white);
+    text-transform: capitalize;
+}
+
+.course-exam p{
+
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: var(--white);
+    padding-bottom: 10px;
+}
+.course-exam span{
+    color: var(--Primary);
+}
+.exams .exam{
+    padding-top: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+.level-icon{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.level-icon h2{
+    font-weight: 700;
+    font-size:16px;
+    line-height: 19.36px;
+    text-transform: capitalize;
+}
+.level-icon .icon-exam{
+ font-size: 34px;
+ color: #817F7F;
+ margin-left: 1rem;
+ margin-right: 1rem;
+ margin-top: -7px;
+}
+.level-icon span{
+    color: var(--white);
+}
+
+.date-exam{
+    background-color: var(--course);
+    text-align: center;
+    border-radius: 5px;
+
+
+}
+ .date-exam .day{
+    background-color: var(--Primary);
+    color: var(--white);
+    border-radius: 0px 0px 5px 5px;
+    margin-top: 10px;
+    font-weight: 600;
+    padding-left: 24.75px;
+    padding-right: 24.75px;
+
+
+
+}
+.date-exam p{
+    color: var(--white);
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 24.2px;
+}
+.date-exam .first-p{
+    font-weight: 700;
+}
+.date-exam .second-p{
+    font-weight: 400;
+}
+.edit-instructor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.edit-instructor .edit-icon{
+    color: var(--Primary);
+    font-size: 20.01px;
+    margin-left: 25px;
+}
+.instructor-user{
+    color: var(--Primary);
+    font-size: 24px;
+    margin-top: -15px;
+    margin-right: 10px;
+}
+
+@media ( min-width:300px) and (max-width:400px){
+
+    .exams{
+        margin-top: -35rem;
+        margin-bottom: 15rem;
+
+    }
+    .courses{
+        margin-top: 15rem;
+
+
+    }
+    .courses h2{
+        margin-bottom: -30px;
+    }
+    .course{
+        margin-bottom: -40px;
+    }
+    .icon-instructor{
+        margin-left: 0;
+        margin-top: 5px;
+        margin-right: 0;
+    }
+
+
+    .level-btn h2{
+
+        font-size: 18px;
+        text-transform: capitalize;
+
+    }
+    .level-btn Button{
+
+        font-size: 14px;
+
+    }
+
+    .course-exam h2{
+
+        font-size: 18px;
+
+    }
+    .icon-instructor span{
+       font-size: 14px;
+    }
+    .instructor-user{
+
+        font-size: 20px;
+        margin-top: -10px;
+
+
+    }
+    .date-exam .day{
+
+        padding-left:15px;
+        padding-right: 15px;
+
+
+
+    }
+    .level-icon .icon-exam{
+        font-size: 28px;
+
+       }
+
+
+
+}
+
+
+@media (max-width:991px) and (min-width:400px) {
+
+
+
+    .courses h2{
+        margin-bottom: -30px;
+    }
+    .course{
+        margin-bottom: -40px;
+    }
+    .icon-instructor{
+        margin-left: 0;
+        margin-top: 5px;
+        margin-right: 0;
+    }
+
+
+    .level-btn h2{
+
+        font-size: 18px;
+        text-transform: capitalize;
+
+    }
+    .level-btn Button{
+
+        font-size: 14px;
+
+    }
+
+    .course-exam h2{
+
+        font-size: 20px;
+
+    }
+    .icon-instructor span{
+       font-size: 14px;
+    }
+    .exams{
+        margin-top: -35rem;
+        margin-bottom: 20rem;
+
+    }
+    .courses{
+        margin-top: 15rem;
+
+
+    }
+    .instructor-user{
+
+        font-size: 20px;
+        margin-top: -10px;
+
+
+    }
+    .level-icon .icon-exam{
+        font-size: 28px;
+
+       }
+
+
+
+
+
+
+}
