@@ -1,12 +1,17 @@
-import './App.css';
-
-
-
+import { Routes,Route,HashRouter} from 'react-router-dom';
+import Student_Portal from './Pages/Student_Portal/Student_Portal';
+import Instructor_Portal from './Pages/Instructor_Portal/Instructor_Portal'
 function App() {
   return (
-    <div>
-      
-    <h1>Team 1 FrontEnd</h1>
+    <div >
+     <HashRouter>
+      <Routes>
+      {/* <Route path="/" element={<Student_Portal/>}/> */}
+      <Route path="/" element={<Instructor_Portal/>}/>
+      </Routes>
+    </HashRouter>
+
+
     </div>
   );
 }

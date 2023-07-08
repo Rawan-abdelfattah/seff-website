@@ -1,0 +1,17 @@
+.top-nav{
+  background-color:var(--top-bg);
+}
+.top-nav .top-nav-link{
+    transition: var(--transition-1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    margin-left: 25px;
+}
+.top-nav .top-nav-link.logout{
+  margin-left: 25px;
+
+}
+.top-nav .top-nav-link:hover{
+    color: var(--Primary) !important;
+}
