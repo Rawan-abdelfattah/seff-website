@@ -12,7 +12,7 @@ const Header = () => {
       <section className='header position-absolute top-0 left-0 w-100' id='header'>
         <TopNav />
         <Navbar expand="lg">
-          <Container fluid='xl' className='header-container p-0'>
+          <Container fluid='xl' className='header-container pt-5'>
             <Navbar.Brand>
               <img className='header-logo' src={logo}/>
             </Navbar.Brand>
