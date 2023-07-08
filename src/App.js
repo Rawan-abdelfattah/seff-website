@@ -1,14 +1,16 @@
 import './App.css';
 import Header from './components/Header/Header';
- import CerateUpdateUser from './pages/CreateUpdateUser/CerateUpdateUser'
+// import CreateNewArticles from './components/CreateNewArticles/CreateNewArticles';
 import Footer from './components/Footer/Footer';
+import UserProfile from './components/UserProfile/UserProfile';
+
 
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <CerateUpdateUser/>
+      <UserProfile/>
       <Footer/>
     </div>
   );
