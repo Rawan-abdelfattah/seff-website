@@ -1,40 +1,27 @@
-// import logo from './logo.svg';
-import "./App.css";
-import "@fortawesome/fontawesome-free/css/all.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import MainLayout from "./Layouts/MainLayout";
-import Sidebar from "./components/Sidebar/Sidebar";
-import { Toggle } from "./components/Toggle/Toggle";
-import AdminPanel from "./components/AdminPanel/AdminPanel";
-
-
-
+import './App.css';
+import Home from './pages/Home/Home';
+import Footer from './components/Footer/Footer';
+import { Route, Routes } from 'react-router-dom';
+import ContactUs from './components/Contact/ContactUs';
+import Header from './components/Header/Header';
+import Exams from './components/Exams/Exams';
+import AdminPanel from './components/AdminPanel/AdminPanel';
+import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
-  let routes = createBrowserRouter([
-    {
-      pass: "",
-      element: <MainLayout />,
-      children: [
-        { index: true, element: <AdminPanel /> },
-        { path: "AdminPanel", element: <AdminPanel /> },
-
-
-       
-      ],
-    },
-  ]);
   return (
     <>
-      <RouterProvider router={routes} />
-{/* 
-      <Toggle>
-      <Sidebar />
-      <ArticleList />
-    </Toggle> */}
-
-    </>
+    <Header/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='contact' element={<ContactUs/>}/>
+        <Route path='exams' element={<Exams/>}/>
+        <Route path='adminpanel' element={<AdminPanel/>}>
+          <Route path='sidebar' element={<Sidebar/>}/>
+        </Route>
+      </Routes>
+    <Footer/>
+   </>
   );
 }
 

@@ -1,4 +1,4 @@
-.header{transition:var(--transition-1);z-index: 1;}
+.header{transition:var(--transition-1);z-index: 10;}
 .header .navbar-toggler{border: 0 !important;}
 .header .nav-link{margin-top: -10px;}
 .header .nav-link,.header .dropdown-item{transition:var(--transition-1);}
@@ -10,7 +10,6 @@
     width: 132px;
     height: 132px;
     margin-top: -30px;
-  
 }
 .header .btn-contact{
     margin-top:-5px;
@@ -18,11 +17,6 @@
     background-color: transparent !important;
     color: var(--white) !important;
     transition: var(--transition-1);
-    width: 135px;
-    height: 39px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19.36px;
 }
 .header .btn-contact:hover{
     background-color: var(--Primary) !important;
@@ -51,7 +45,6 @@
         width: 100px;
         height: 100px;
         margin-top: -22px;
-
     }
     .header .nav-link,.header .btn-contact{font-size: 13px;}
 }
@@ -65,7 +58,7 @@
 (min-width:991px) and (max-width:991.5px) {
     .header .nav-link{font-size: var(--p-16) !important;}
     .header .nav-link:hover:after{height: 0;}
-    .header .nav-container{
+    .header .nav-container{ 
         background-color: var(--alpha-bg);
         backdrop-filter: blur(10px);
         padding: 0 20px;
