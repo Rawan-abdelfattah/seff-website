@@ -1,0 +1,209 @@
+.home-content {
+    background-color: var(--content-bg);
+    height: 1000px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Colors */
+    --Primary: #BF9B30;
+    --Secondary: #EDD587;
+    --Green: #34A853;
+    --Red: #ea4335;
+    --Grey: #D0D0D0;
+    --Black: #1A1919;
+    --White-for-txt: #FFFFFF;
+    --White-for-icon: #F8F8F8;
+    --Gradient-bg: #2a2a2a;
+    --Alpha-bg: #1515167e;
+    --Top-bg: #151516be;
+    --Footer-bg: #212121;
+
+    /* Colors of Button */
+    --btn-defauit: #BF9B30;
+    --btn-hover: #e7bc3c;
+    --btn-disabled: #e1e1e1;
+
+    /* Transition */
+    --transition-1: all 0.3s ease;
+    --transition-2: all 0.4s ease;
+
+    /* linear gradient */
+    --linear-gradient: -webkit-linear-gradient(left, #2a2929, #1a1919);
+
+    /* Font-family */
+    --font-family: 'Open Sans', sans-serif;
+    --font-semiBold: 600px;
+    --font-regular: 400px;
+
+    /* font-weight */
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+
+    /* typography */
+    --h1-48: 48px;
+    --h1-50: 50px;
+    --h1-52: 52px;
+    --h1-54: 54px;
+    --h1-56: 56px;
+    --h1-58: 58px;
+    --h1-60: 60px;
+
+    --h2-34: 34px;
+    --h2-36: 36px;
+    --h2-38: 38px;
+    --h2-40: 40px;
+    --h2-42: 42px;
+    --h2-44: 44px;
+    --h2-46: 46px;
+    --h2-48: 48px;
+    --h2-50: 50px;
+
+    --h4-18: 18px;
+    --h4-20: 20px;
+    --h4-22: 22px;
+
+    --p-14: 14px;
+    --p-16: 16px;
+    --p-18: 18px;
+    --p-20: 20px;
+    --p-22: 22px;
+    --p-24: 24px;
+}
+
+.home-content {
+    height: fit-content;
+    color: white;
+    background-image: url('../../assets/images/secondary_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.home-content .overlay {
+    background-color: rgba(19, 19, 19, 0.8);
+    padding-top: 200px;
+    padding-bottom: 70px;
+}
+
+.line {
+    height: 1.8px;
+    background-color: var(--Primary);
+    margin-top: 10px;
+    width: 89px;
+}
+
+.image-name {
+    /* border: 2px solid rgb(0, 255, 51); */
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-height: 186px;
+    background-color: rgba(0, 0, 0, 0.40);
+    padding: 50px;
+}
+
+.image-admin {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 30px;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.btn-edit {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-transform: uppercase;
+    background-color: var(--btn-defauit) !important;
+    border: 0 !important;
+    transition: var(--transition-1);
+    -webkit-transition: var(--transition-1);
+    -moz-transition: var(--transition-1);
+    -ms-transition: var(--transition-1);
+    -o-transition: var(--transition-1);
+    height: 45px !important;
+    width: 155px !important;
+}
+
+.btn-edit:hover {
+    background-color: var(--btn-hover) !important;
+}
+
+.content {
+    height: 150vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .side-bar {
+    width: 362px;
+    height: 899px;
+    background-color: rgba(0, 0, 0, 0.40);
+}
+
+.admin-information {
+    width: 891px;
+}
+
+.about,
+.course {
+    padding: 20px;
+    height: 178px;
+    background-color: rgba(0, 0, 0, 0.40);
+}
+
+.course {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 134px;
+    border-color: #34A853;
+}
+
+.titel {
+    margin-left: 20px;
+}
+
+.instructuor {
+    color: var(--Primary);
+}
+
+
+@media (max-width:1140px) {
+
+    .home-content {
+        background-image: url('../../assets/images/secondary_background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+
+    }
+
+    .image-name {
+        display: block;
+        margin-top: 50px;
+    }
+
+    .image-admin {
+        margin-bottom: 30px;
+    }
+
+    .content .side-bar {
+        display: none;
+    }
+
+}
