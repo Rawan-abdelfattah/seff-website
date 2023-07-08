@@ -1,217 +1,38 @@
-     
-    
-    :root{
-    
-        /* Colors */
-        --Primary: #BF9B30;
-        --Green: #34A853;
-        --Red: #ea4335;
-        --Grey: Grey;
-        --black: #1A1919;
-    
-        /* Colors of Button */
-        --btn-defauit: #BF9B30;
-        --btn-hover: #e7bc3c;
-        --btn-disabled: #e1e1e1;
-    
-        /* Transition */
-        --transition-1: all 0.4s ease;
-    
-        /* Font-family */
-        --font-family: 'Open Sans', sans-serif;
-        --font-semiBold: 600px;
-        --font-regular: 400px;
-    
-        /* font-weight */
-        --fw-300: 300;
-        --fw-400: 400;
-        --fw-500: 500;
-        --fw-600: 600;
-    
-        /* typography */
-        --h1-48: 48px;
-        --h1-50: 50px;
-        --h1-52: 52px;
-        --h1-54: 54px;
-        --h1-56: 56px;
-        --h1-58: 58px;
-        --h1-60: 60px;
-    
-        --h2-34: 34px;
-        --h2-36: 36px;
-        --h2-38: 38px;
-        --h2-40: 40px;
-        --h2-42: 42px;
-        --h2-44: 44px;
-        --h2-46: 46px;
-        --h2-48: 48px;
-        --h2-50: 50px;
-        
-        --h4-18:18px;
-        --h4-20:20px;
-        --h4-22:22px;
-    
-        --p-14:14px;
-        --p-16:16px;
-        --p-18:18px;
-        --p-20:20px;
-        --p-22:22px;
-        --p-24:24px;
-    }
-  *{
-  padding:0;
-  margin:0;
-  box-sizing:border-box;
-  text-decoration:none;
-  
-  }
-  body{
-    scroll-behavior:smooth;
-    background:#000;
-   
-  }
-  .pdx{
-    padding: 0 9%;
-  }
-  .create-updtae-user{
-    width: 100%;
-    left: 0;
-     position: absolute;
-     top: 150px;
-    color:#fff;
-  }
-  .form-header{
-    padding-top: 200px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding-bottom:30px;
-  }
-  .form-header h1{
-    text-transform: capitalize;
-    font-size:20px;
-    font-weight:var(--fw-400);
-    border-bottom:2px solid var(--Primary);
-    padding-bottom:10px;
-    margin-top: -340px;
-  }
-  .form-header a{
-   text-decoration:none;
-   background:var(--Primary);
-   color:#fff;
-   text-transform: uppercase;
-   padding:7px 10px;
-   font-size:15px;
-   border-radius: 5px;
-   font-weight:var(--font-semiBold);
-   margin-top: -340px;
-
-  }
-  .side-bar-header{
-     padding-top: 80px;
-     margin-bottom: 60px;
-     color: #fff;
-     width: 160px;
-  }
-  .side-bar-header p{
-    font-size: 15px;
-    font-weight: var(--fw-500);
-    text-transform: capitalize;
-  }
-  .side-bar-header .header{
-   position:relative;
-    padding-bottom: 10px;
-  }
-  .side-bar-header .header::after{
-   content:'';
-   position:absolute;
-   top:100%;
-   left:0;
-   width:60%;
-   height:2px;
-   background:var(--Primary);
-
-   
-  }
-
- 
-  .Side-bar{
-    background-color:rgba(0, 0,0, .5);
-    height: 600px;
-    
-  }
-   
-  /* start form style */
- .action-form{
-    display: flex;
-    justify-content: end;
-   
- padding: 30px 0 80px 0;
-  }
-
-  .btn-form{
-    width:150px;
-    background-color: none;
-    border: none;
-    color: #fff;
-    padding: 7px 10px;
-    border-radius: 5px;
-   text-transform:uppercase;
-  } 
-  .cancel{
-    background-color: var(--Grey);
-    margin-right: 20px;
-   
-  }
-  .upload{
-    background: var(--Primary);
- 
-  }
-  .icons{
-    color:var(--Primary);
-    font-size: 20px;
-  }
-  .form-content{
-    margin-top: -150px;
-  }
-   .input-form{
-    background-color: var(--black);
-    outline: none;
-    border: none;
-    color: #fff;
-   }
-   .input-form:focus{
-    background-color: var(--black);
-    outline: none;
-    border: none;
-    color: #fff;
-    height:40px;
-   }
-   
-  /* end form style */
-.uploadecertificate h2{
-  padding:30px 0;
-  text-transform: capitalize;
-  font-size:20px;
-  font-weight:var(--fw-400);
+.App {
+  text-align: center;
 }
-.uploade-content{
-  border:1px dashed var(--Primary);
-  text-align:center;
-  text-transform:capitalize;
-  padding:80px 0;
-  background:var(--black);
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
-.uploade-content h3{
-  padding:30px 0;
-  text-transform: capitalize;
-  font-size:20px;
-  font-weight:var(--fw-400);
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
-.uploade-content a{
-  color:var(--Primary);
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
-.uploade-content p{
-  font-size:16px;
-  color:var( --Grey);
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Circle_Progress{
+    background-color: var(--footer-bg);
+   padding-bottom: 5rem;
+
+
+}
+.Circle_Progress h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.57px;
+    color: var(--white);
+    width: 55%;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+.Circle_Progress span{
+    font-weight: 400;
+    color: var( --Primary);
+}
+.Circle_Progress .Progress{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+
+
+
+
+}
+.Circle_Progress .Progress .progress-one{
+    background-color: var(--course);
+    text-align: center;
+    padding: 20px 0;
+    width: 260px;
+
+}
+.progress-div{
+
+
+    width: 160px;
+    height: 160px;
+   margin-top: -11.7rem;
+    position: absolute;
+
+}
+.progress-div .circle{
+    margin-left: 56px;
+    stroke: var(--white);
+
+}
+.circle-first{
+
+    width: 215px;
+    height: 215px;
+    position: relative;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+ .circle_big{
+    margin-left: 28px;
+
+}
+.CircularProgressbar-path {
+    stroke: var(--btn-defauit) !important;
+  }
+.Circle_Progress .Progress .course_name{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 29.05px;
+    color: var(--white);
+    margin-bottom: 30px;
+
+}
+.Circle_Progress .Progress p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height:29.05px ;
+    color: var(--white);
+
+}
+.Circle_Progress .Progress .Lev-p{
+
+    font-size: 38px;
+    line-height: 43.57px;
+}
+
+@media(min-width:300px) and (max-width:375px){
+    .Circle_Progress h2{
+        font-size: 32px;
+        width: 100%;
+        padding-top: 15rem;
+    }
+    .Circle_Progress{
+        margin-top: -100px;
+
+
+    }
+    .Circle_Progress .Progress .progress-one{
+        margin-bottom: 20px;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        text-align: left;
+
+    }
+    .progress-div{
+
+        width: 90px;
+        height: 90px;
+       margin-top: -6.7rem;
+        position: absolute;
+
+    }
+    .progress-div .circle{
+        margin-left: 35px;
+        stroke: var(--white);
+
+    }
+    .circle-first{
+
+        width: 140px;
+        height: 140px;
+        position: relative;
+        margin-top:10px;
+        margin-bottom: 30px;
+
+    }
+     .circle_big{
+        margin-left: 18px;
+
+    }
+
+    .Circle_Progress .Progress .Lev-p{
+
+        font-size: 22px;
+        margin-bottom: 0;
+
+    }
+    .Circle_Progress .Progress .course_name{
+        text-align: left;
+         margin-bottom: 0;
+         font-size: 20px;
+    }
+    .Circle_Progress .Progress p{
+      margin-left: 35px;
+      font-size: 22px;
+      font-weight: 700;
+    }
+
+
+}
+@media(min-width:360px) and (max-width:375px){
+    .Circle_Progress h2{
+        font-size: 32px;
+        width: 100%;
+        padding-top: 10rem;
+    }
+    .progress-div{
+
+        width: 88px;
+        height: 88px;
+       margin-top: -6.4rem;
+        position: absolute;
+
+    }
+    .progress-div .circle{
+        margin-left: 33px;
+        stroke: var(--white);
+
+    }
+
+
+}
+@media(min-width:375px) and (max-width:380px){
+    .Circle_Progress h2{
+        font-size: 32px;
+        width: 100%;
+        padding-top: 15rem;
+    }
+    .progress-div{
+
+        width: 90px;
+        height: 90px;
+       margin-top: -6.7rem;
+        position: absolute;
+
+    }
+    .progress-div .circle{
+        margin-left: 35px;
+        stroke: var(--white);
+
+    }
+
+
+
+}
+@media(min-width:380px) and (max-width:400px){
+    .Circle_Progress h2{
+        font-size: 32px;
+        width: 100%;
+        padding-top:5rem;
+    }
+    .Circle_Progress{
+        margin-top: -100px;
+
+
+    }
+    .Circle_Progress .Progress .progress-one{
+        margin-bottom: 20px;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        text-align: left;
+
+    }
+    .progress-div{
+
+        width: 90px;
+        height: 90px;
+       margin-top: -6.7rem;
+        position: absolute;
+
+    }
+    .progress-div .circle{
+        margin-left: 36px;
+        stroke: var(--white);
+
+    }
+    .circle-first{
+
+        width: 135px;
+        height: 135px;
+        position: relative;
+        margin-top:10px;
+        margin-bottom: 30px;
+
+    }
+     .circle_big{
+        margin-left: 18px;
+
+    }
+
+    .Circle_Progress .Progress .Lev-p{
+
+        font-size: 22px;
+        margin-bottom: 0;
+
+    }
+    .Circle_Progress .Progress .course_name{
+        text-align: left;
+         margin-bottom: 0;
+         font-size: 20px;
+    }
+    .Circle_Progress .Progress p{
+      margin-left: 35px;
+      font-size: 22px;
+      font-weight: 700;
+    }
+
+
+}
+@media (max-width:991px )and (min-width:400px)  {
+    .Circle_Progress h2{
+        font-size: 32px;
+        width: 100%;
+        padding-top: 0;
+    }
+    .Circle_Progress{
+        margin-top: -100px;
+
+
+    }
+    .Circle_Progress .Progress .progress-one{
+        margin-bottom: 20px;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        text-align: left;
+
+    }
+    .progress-div{
+
+        width: 100px;
+        height: 100px;
+       margin-top: -7.4rem;
+        position: absolute;
+
+    }
+    .progress-div .circle{
+        margin-left: 37px;
+        stroke: var(--white);
+
+    }
+    .circle-first{
+
+        width: 140px;
+        height: 140px;
+        position: relative;
+        margin-top:10px;
+        margin-bottom: 30px;
+
+    }
+     .circle_big{
+        margin-left: 18px;
+
+    }
+
+    .Circle_Progress .Progress .Lev-p{
+
+        font-size: 22px;
+        margin-bottom: 0;
+
+    }
+    .Circle_Progress .Progress .course_name{
+        text-align: left;
+         margin-bottom: 0;
+         font-size: 20px;
+    }
+    .Circle_Progress .Progress p{
+      margin-left: 35px;
+      font-size: 22px;
+      font-weight: 700;
+    }
+
+
+
+}
