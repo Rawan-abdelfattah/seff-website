@@ -7,7 +7,6 @@ import {faFacebook,faTwitter,faInstagram,faLinkedin} from '@fortawesome/free-bra
 import footerLogo from '../../assets/images/seff_logo_transparent.png';
 import './Footer.css';
 
-
 const Footer = () => {
   return (
     <div className='footer'>

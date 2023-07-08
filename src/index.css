@@ -1,29 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
-:root{
+
+:root {
   /* Colors */
   --Primary: #BF9B30;
-  --Secondary:#EDD587;
+  --Secondary: #EDD587;
   --Green: #34A853;
   --Red: #ea4335;
-  --Grey: Grey;
-  --black: #1A1919;
-  --white:#fff;
-  --alpha-bg:#00000061;
-  --top-bg:#151516be;
-  --main-bg:#212121;
-  --content-bg:#2a2a2a;
-  --login-bg:#2f2f2f;
-  --form-bg:#252525;
-  --input-bg:#414040;
-  --password-eye:#676767;
+  --Grey: #D0D0D0;
+  --Black: #1A1919;
+  --White-for-txt: #FFFFFF;
+  --White-for-icon: #F8F8F8;
+  --Gradient-bg: #2a2a2a;
+  --Alpha-bg: #1515167e;
+  --Top-bg: #151516be;
+  --Footer-bg: #212121;
 
   /* Colors of Button */
-  --btn-default: #BF9B30;
+  --btn-defauit: #BF9B30;
   --btn-hover: #e7bc3c;
   --btn-disabled: #e1e1e1;
 
   /* Transition */
-  --transition-1: all 0.4s ease;
+  --transition-1: all 0.3s ease;
+  --transition-2: all 0.4s ease;
+
+  /* linear gradient */
+  --linear-gradient: -webkit-linear-gradient(left, #2a2929, #1a1919);
 
   /* Font-family */
   --font-family: 'Open Sans', sans-serif;
@@ -55,22 +57,27 @@
   --h2-48: 48px;
   --h2-50: 50px;
 
-  --h4-18:18px;
-  --h4-20:20px;
-  --h4-22:22px;
-  
-  --p-14:14px;
-  --p-16:16px;
-  --p-18:18px;
-  --p-20:20px;
-  --p-22:22px;
-  --p-24:24px;  
+  --h4-18: 18px;
+  --h4-20: 20px;
+  --h4-22: 22px;
+
+  --p-14: 14px;
+  --p-16: 16px;
+  --p-18: 18px;
+  --p-20: 20px;
+  --p-22: 22px;
+  --p-24: 24px;
 }
+
 body {
   margin: 0;
   font-family: var(--font-family);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
