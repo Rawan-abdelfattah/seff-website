@@ -1,7 +1,8 @@
 .footer{
-    background-color:var(--content-bg);
+
     padding: 20px 0 50px 0;
     overflow: hidden;
+    
 }
 .footer .footer-logo{width: 132px;height: 132px;}
 .footer .footer-title h3{font-size: var(--p-24);margin-bottom: 20px;}
@@ -42,8 +43,8 @@
     .footer .footer-contact p{margin-top: -10px !important;}
     .footer .footer-last-sec{ border: none;}
     .footer .footer-icons{position: absolute;top: -250px;right: 0;}
-    .footer .social-icon{margin-bottom: 20px;font-size: 30px;}  
+    .footer .social-icon{margin-bottom: 20px;font-size: 30px;}
 }
 @media (max-width:280px) {
-    .footer .footer-title p{font-size: var(--p-18)}   
+    .footer .footer-title p{font-size: var(--p-18)}
 }
