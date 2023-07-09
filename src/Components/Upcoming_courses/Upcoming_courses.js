@@ -1,7 +1,8 @@
 import React from "react";
 import { Button, Container, Row,Col, ProgressBar } from "react-bootstrap";
-import {FaRegCalendar,FaImage,FaRegNoteSticky} from 'react-icons/fa6';
+import {FaRegCalendar,FaRegImage,FaClipboardList} from 'react-icons/fa6';
 import './Upcoming_courses.css';
+
 
 
 
@@ -16,7 +17,9 @@ function Upcoming_courses(){
             <div className="courses-instructor">
                 <div className="one-course">
                     <div className="image">
-                      <FaImage className="icon"/>
+
+                      <FaRegImage className="icon"/>
+
                       <p>LEV. 1</p>
                     </div>
                     <div className="content">
@@ -27,7 +30,7 @@ function Upcoming_courses(){
                         <span>Wednesday, June 7th</span>
                         </div>
                         <div className="icon-span">
-                        <FaRegNoteSticky className="icon-cal"/>
+                        <FaClipboardList className="icon-cal"/>
                         <span>12 lessons</span>
                         </div>
                         </div>
@@ -37,7 +40,7 @@ function Upcoming_courses(){
 
                 <div className="one-course">
                     <div className="image">
-                      <FaImage className="icon"/>
+                      <FaRegImage className="icon"/>
                       <p>LEV. 1</p>
                     </div>
                     <div className="content">
@@ -48,7 +51,7 @@ function Upcoming_courses(){
                         <span>Wednesday, June 7th</span>
                         </div>
                         <div className="icon-span">
-                        <FaRegNoteSticky className="icon-cal"/>
+                        <FaClipboardList className="icon-cal"/>
                         <span>12 lessons</span>
                         </div>
                         </div>

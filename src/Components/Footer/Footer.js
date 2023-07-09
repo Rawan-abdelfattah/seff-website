@@ -48,7 +48,7 @@ const Footer = () => {
                             <p><Icon path={mdiEmailOpenMultipleOutline} size={1} className='email-icon d-md-block d-none'/></p>
                         </div>
                         <div className='phone d-flex justify-content-md-end justify-content-start text-white'>
-                            <p className='me-2'>+20 109 8481 288 <br/>+20 155 5177 645</p>
+                            <p className='me-2'>+20 109 8481 288 <br/> +20 155 5177 645</p>
                             <p><FontAwesomeIcon icon={faPhoneVolume} className='phone-icon d-md-block d-none'/></p>
                         </div>
                     </div>

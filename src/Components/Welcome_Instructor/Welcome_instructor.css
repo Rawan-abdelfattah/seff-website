@@ -3,7 +3,7 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
-.Welcome{
+.Welcome_instructor{
 
     background-image: url(../../assets/images/secondary_background.jpg);
     background-repeat: no-repeat;
@@ -16,15 +16,14 @@
 
 
 }
-.overlay-welcome{
-    background-color:var(--top-bg);
-    opacity: .8px;
+.Welcome_instructor .overlay-welcome{
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.89) 0%, rgba(27, 26, 26, 0.93) 47.92%, #1A1919 100%);
     width: 100%;
     padding-top: 14em;
     padding-bottom: 15px;
 
 }
-.Date_portal p{
+.Welcome_instructor .Date_portal p{
     font-size: 16px;
     font-weight: 400;
     line-height: 19.36px;
@@ -32,14 +31,14 @@
     margin-bottom: 8px;
 
 }
-.hr-welcome{
+.Welcome_instructor .hr-welcome{
  height: 1px;
  width: 13%;
  background-color: var(--secondary);
  margin-bottom: 8px;
 
 }
-.welcome-content{
+.Welcome_instructor .welcome-content{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -47,7 +46,7 @@
     align-content: center;
 
 }
-.Welcome h1{
+.Welcome_instructor h1{
  text-transform: uppercase;
  font-weight: 600;
  font-size: 36px;
@@ -55,10 +54,10 @@
  color:var(--white);
 
 }
-.Welcome h1 span{
+.Welcome_instructor h1 span{
   color: var(--btn-defauit);
 }
-.Welcome Button{
+.Welcome_instructor Button{
 
     text-transform: uppercase;
     background-color: var(--btn-defauit)!important;
@@ -73,12 +72,12 @@
 
 
 }
-.Welcome Button:hover{
+.Welcome_instructor Button:hover{
     background-color: var(--btn-hover)!important;
 }
 
 /*dashboard-student*/
-.dashboard-student{
+.Welcome_instructor .dashboard-student{
     background-color: #00000030;
     height: 199px;
     border-radius: 5px;
@@ -93,7 +92,7 @@
 
   }
 
-  .dashboard-student h2{
+  .Welcome_instructor .dashboard-student h2{
       display: inline-block;
       border-radius: 5px;
       line-height: 29.05px;
@@ -108,16 +107,16 @@
 
 
   }
-  .dashboard-student .content{
+  .Welcome_instructor .dashboard-student .content{
   width: 262px;
 
   }
-  .dashboard-student .content.md{
+  .Welcome_instructor .dashboard-student .content.md{
     margin-left: 7rem;
     margin-right:7rem;
   }
 
-  .dashboard-student .content-numbers{
+  .Welcome_instructor .dashboard-student .content-numbers{
 
       border: var(--btn-defauit) 1px solid;
       font-weight: 700;
@@ -131,12 +130,12 @@
 
   }
   /*progress-welcome*/
-  .progress-welcome{
+  .Welcome_instructor .progress-welcome{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  .progress-welcome .content p{
+  .Welcome_instructor .progress-welcome .content p{
    font-size: 24px;
    font-weight: 600;
    line-height: 29.05px;
@@ -144,7 +143,7 @@
    color: var(--white);
   }
 
-  .progress-welcome .progress{
+  .Welcome_instructor .progress-welcome .progress{
       margin-left: 10px;
       width: 97%;
 
@@ -154,7 +153,7 @@
       --bs-progress-bar-bg:var(--btn-defauit);
   }
   /*Exam-today*/
-  .Exam-today{
+  .Welcome_instructor .Exam-today{
       width: 741px;
       background-color:var(--exam-today);
       border-radius: 5px;
@@ -164,7 +163,7 @@
 
 
   }
-  .Exam-today .Exam-today-content{
+  .Welcome_instructor .Exam-today .Exam-today-content{
       padding-top: 31.5px;
       padding-bottom: 31.5px;
       text-align: left;
@@ -172,7 +171,7 @@
 
 
   }
-  .not-exist span{
+  .Welcome_instructor .not-exist span{
       color: var(--white);
       font-size: 24px;
       font-family: 600;
@@ -184,13 +183,13 @@
 
 
   }
-  .Exam-today .Exam-today-content .Exam-today-icon{
+  .Welcome_instructor .Exam-today .Exam-today-content .Exam-today-icon{
       font-size: 56px;
       font-weight: 300;
       color: var(--white);
 
   }
-  .not-exist{
+  .Welcome_instructor .not-exist{
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
@@ -199,7 +198,7 @@
   }
 
 
-  .exist{
+  .Welcome_instructor .exist{
 
       display: flex;
       flex-direction: row;
@@ -210,7 +209,7 @@
 
 
   }
-  .exist span{
+  .Welcome_instructor .exist span{
       position: relative;
       color: var(--white);
       font-size: 24px;
@@ -226,39 +225,39 @@
 
 
   @media (max-width:991px ) {
-    .hr-welcome{
+    .Welcome_instructor .hr-welcome{
         width: 21%;
     }
-    .Welcome h1{
+    .Welcome_instructor h1{
      margin-top: 30px;
      font-size: 30px;
      width: 70%;
        }
-     .Welcome Button{
+    .Welcome_instructor Button{
        margin-top: 70px;
        width: 150px;
        height: 40px;
 
 
     }
-    .welcome-content{
+    .Welcome_instructor .welcome-content{
 
         justify-content: center;
 
 
     }
-    .Welcome{
+    .Welcome_instructor{
 
       background-position: 50% ;
 
     }
-    .dashboard-student .content.md{
+    .Welcome_instructor .dashboard-student .content.md{
         margin-top: 3rem;
         margin-bottom:3rem;
         margin-left: 0;
         margin-right: 0;
       }
-      .dashboard-student{
+      .Welcome_instructor .dashboard-student{
         height: 100%;
         padding: 45px 0;
         margin-top: 2rem;
@@ -266,33 +265,33 @@
 
       }
 
-      .Exam-today{
+      .Welcome_instructor .Exam-today{
         width: 99%;
 
       }
 
-    .exist Button{
+      .Welcome_instructor .exist Button{
         margin-top: -10px;
         width: 150px;
         height: 40px;
 
 
     }
-    .not-exist span{
+    .Welcome_instructor .not-exist span{
         padding-left: 10px;
         position: relative;
         width: 260px;
         font-size: 20px;
     }
-    .not-exist{
+    .Welcome_instructor .not-exist{
         padding-left: 15px;
         padding-right: 15px;
     }
-    .exist{
+    .Welcome_instructor .exist{
         padding-left: 15px;
         padding-right: 15px;
     }
-    .Exam-today .Exam-today-content .Exam-today-icon{
+    .Welcome_instructor .Exam-today .Exam-today-content .Exam-today-icon{
         font-size: 52px;
         width: 15%;
 

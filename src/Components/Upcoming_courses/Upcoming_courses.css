@@ -73,7 +73,7 @@
     color: var(--white);
 }
 .one-course .image{
-    background: linear-gradient(180deg, rgba(245, 244, 244, 0.641) 42.19%, rgba(207, 207, 207, 0.281) 100%);
+    background: linear-gradient(180deg, rgba(245, 244, 244, 0.788) 42.19%, rgba(207, 207, 207, 0.281) 100%);
     border-radius: 5px 0px 0px 5px;
     width: 196px;
     text-align: center;
@@ -84,7 +84,13 @@
 .one-course .image .icon{
     width: 98px;
     height: 162px;
-    color:  rgba(245, 244, 244, 0.356);
+    color:  #919191;
+
+
+
+
+
+
 }
 .one-course .image p{
     position: absolute;
@@ -113,22 +119,22 @@
     }
     .one-course .image p{
 
-        margin-top: 313px;
+        margin-top: 140px;
         margin-left: 0px;
 
     }
     .one-course Button{
 
             margin-top: 20px;
-            margin-left:170px;
+            margin-left:140px;
     }
     .one-course .image{
         margin: 20px;
         width: 90%;
-        height: 60%;
+        height: 35%;
    }
     .one-course .content{
-        padding: 15px 15px 190px 20px;
+        padding: 15px 15px 70px 20px;
     }
 
 
@@ -138,7 +144,7 @@
 @media(max-width:991px) and (min-width:400px){
     .one-course .image p{
 
-        margin-top: 305px;
+        margin-top: 140px;
         margin-left: 0px;
 
     }
@@ -151,10 +157,10 @@
     .one-course .image{
         margin: 20px;
         width: 90%;
-        height: 60%;
+        height: 35%;
    }
     .one-course .content{
-        padding: 15px 15px 190px 20px;
+        padding: 15px 15px 70px 20px;
     }
     .one-course{
         margin-bottom: 30px;

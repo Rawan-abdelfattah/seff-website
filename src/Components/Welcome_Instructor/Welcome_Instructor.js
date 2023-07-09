@@ -18,7 +18,7 @@ function Welcome_instructor(){
 
 
     return(
-        <section className="Welcome">
+        <section className="Welcome_instructor">
           <div className="overlay-welcome">
             <Container className="Date_portal">
                    <Row>

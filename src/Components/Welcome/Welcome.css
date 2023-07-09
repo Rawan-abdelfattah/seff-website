@@ -16,9 +16,13 @@
 
 
 }
+/* Rectangle 26 */
+
+
+
+
 .Welcome_Student .overlay-welcome{
-    background-color:var(--top-bg);
-    opacity: .8px;
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.89) 0%, rgba(27, 26, 26, 0.93) 47.92%, #1A1919 100%);
     width: 100%;
     padding-top: 14em;
     padding-bottom: 15px;

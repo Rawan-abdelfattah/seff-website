@@ -1,6 +1,6 @@
 import React from "react";
 import Welcome from "../../Components/Welcome/Welcome";
-import TopNav from '../../Components/TopNav/TopNav';
+import TopNav_student from '../../Components/TopNav-student-portal/TopNav_student';
 import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
 import Registered_courses from "../../Components/Registered-courses/Registered_courses";
@@ -10,7 +10,7 @@ import Circle_Progress from "../../Components/Circle_Progress_Bar/Circle_Progres
 function Student_Portal(){
  return(
     <div>
-        <TopNav/>
+        <TopNav_student/>
         <Header/>
         <Welcome/>
         <Registered_courses/>

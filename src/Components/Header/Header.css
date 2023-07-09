@@ -1,4 +1,4 @@
-.header{transition:var(--transition-1);z-index: 1;}
+.header{transition:var(--transition-1);z-index: 1; width:100%}
 .header .navbar-toggler{border: 0 !important;}
 .header .nav-link{margin-top: -10px;}
 .header .nav-link,.header .dropdown-item{transition:var(--transition-1);}
@@ -10,7 +10,7 @@
     width: 132px;
     height: 132px;
     margin-top: -30px;
-  
+
 }
 .header .btn-contact{
     margin-top:-5px;
@@ -18,7 +18,7 @@
     background-color: transparent !important;
     color: var(--white) !important;
     transition: var(--transition-1);
-    width: 135px;
+    width: 125px;
     height: 39px;
     font-size: 16px;
     font-weight: 400;

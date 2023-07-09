@@ -1,5 +1,5 @@
 import React from 'react';
-import TopNav from '../TopNav/TopNav';
+
 import {Container,Nav,Navbar,NavDropdown,Button} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faChevronDown} from '@fortawesome/free-solid-svg-icons';
@@ -9,8 +9,8 @@ import './Header.css';
 
 const Header = () => {
   return (
-      <section className='header position-absolute top-0 left-0 w-100' id='header'>
-        <TopNav />
+      <section className='header position-absolute top-0 left-0' id='header'>
+
         <Navbar expand="lg">
           <Container fluid='xl' className='header-container pt-5'>
             <Navbar.Brand>
