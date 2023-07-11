@@ -1,0 +1,17 @@
+.general-title h2{font-size: 55px;top: 250px;}
+@media (max-width:992px){
+    .general-title{padding: 0 8px;}
+    .general-title h2{top:170px;}
+}
+@media (max-width:768px) {
+    .general-title h2{font-size: 45px;}
+}
+@media (max-width:445px) {
+    .general-title h2{font-size: 40px;}
+}
+@media (max-width:335px) {
+    .general-title h2{font-size: 40px;}
+}
+@media (max-width:303px) {
+    .general-title h2{font-size: 35px;}
+}

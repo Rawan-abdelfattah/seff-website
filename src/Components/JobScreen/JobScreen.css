@@ -1,0 +1,74 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+section {
+  background-color: var(--Top-bg);
+  font-family: var(--font-family);
+}
+.job-screen {
+  background-color:transparent;
+  color: #fff;
+  font-family: var(--font-family);
+}
+.form-control {
+  width: 70%;
+  border-radius: 5px 0px 0px 5px / 5px 0px 0px 5px;
+  display: inline-block;
+}
+.btn:hover {
+  background-color: var(--btn-hover);
+} 
+@media (max-width: 767px) {
+  .form-control {
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    border-radius: 5px;
+  }
+ .job-screen .btn1 {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .jobs-details{text-align: left !important;
+}
+.menu-job{display: none;}
+}
+.input-sub {
+  background: rgba(128, 128, 128, 0.438);
+  border: none;
+  color: var(--white);
+  border-radius: 6px;
+}
+
+.input-sub:focus {
+  border: 1px solid var(--btn-defauit);
+  box-shadow: none;
+  background-color: var(--Gradient-bg);
+  color: var(--white);
+}
+.btn-subscribe {
+  background-color: var(--btn-defauit);
+  border: 0px;
+  font-weight: var(--fw-600);
+  text-transform: uppercase;
+  font-size: var(--p-24);
+  padding: 10px 20px;
+  box-shadow: none;
+  margin-left: -15px !important;
+  border-radius: 6px;
+  transition: var(--transition-1);
+  text-align: center;
+
+}
+
+.btn-subscribe:focus,
+.btn-subscribe:hover {
+  background-color: var(--btn-hover) !important;
+}
+
+.input-sub::placeholder {
+  color: white;
+  font-size: 20px;
+  }
+
+  
+
+

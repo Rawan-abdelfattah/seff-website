@@ -31,13 +31,13 @@ const Footer = () => {
                           <a href='#'>Business</a>
                           <a href='#'>Security</a>
                        </div>
-                       <div className='d-flex flex-wrap mt-2 '>
-                          <a href='#'  className='mb-0'>Medical</a>
-                          <a href='#'  className='mb-0'>Startups</a>
-                          <a href='#'  className='mb-0'>Apps</a>
-                          <a href='#'  className='mb-0'>Courses</a>
-                          <a href='#'  className='mb-0'>Contact Us</a>
-                          <a href='#'  className='mb-0'>Sports</a>
+                       <div className='d-flex flex-wrap mt-2'>
+                          <a href='#'  className='mb-2'>Medical</a>
+                          <a href='#'  className='mb-2'>Startups</a>
+                          <a href='#'  className='mb-2'>Apps</a>
+                          <a href='#'  className='mb-2'>Courses</a>
+                          <a href='#'  className='mb-2'>Contact Us</a>
+                          <a href='#'  className='mb-2'>Sports</a>
                        </div>
                    </div>
                 </div>
@@ -48,14 +48,14 @@ const Footer = () => {
                             <p><Icon path={mdiEmailOpenMultipleOutline} size={1} className='email-icon d-md-block d-none'/></p>
                         </div>
                         <div className='phone d-flex justify-content-md-end justify-content-start text-white'>
-                            <p className='me-2'>+20 109 8481 288 <br/> +20 155 5177 645</p>
+                            <p className='me-2'>+20 109 8481 288 <br/>+20 155 5177 645</p>
                             <p><FontAwesomeIcon icon={faPhoneVolume} className='phone-icon d-md-block d-none'/></p>
                         </div>
-                    </div>
+                    </div> 
                 </div>
             </div>
-            <div className='footer-last-sec mt-4 position-relative'>
-                <div className='row mt-5'>
+            <div className='footer-last-sec mt-5 position-relative'>
+                <div className='row mt-4'>
                     <div className='col-md-6 col-12 d-flex justify-content-md-start justify-content-center '>
                         <p className='copy-right text-white text-uppercase'>@2023 Egypt, All Rights Reserved</p>
                     </div>

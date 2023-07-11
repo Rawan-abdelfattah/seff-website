@@ -1,26 +1,27 @@
 import React from 'react';
-
 import {Container,Nav,Navbar,NavDropdown,Button} from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faChevronDown} from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 import { Twirl as Hamburger } from 'hamburger-react';
+import TopNav from '../TopNav/TopNav';
 import logo from '../../assets/images/seff_logo_transparent.png';
 import './Header.css';
 
-const Header = () => {
+const Header = ({flag}) => {
   return (
-      <section className='header position-absolute top-0 left-0' id='header'>
-
+      <section className='header position-absolute top-0 left-0 w-100' id='header'>
+        <TopNav flag={flag}/>
         <Navbar expand="lg">
-          <Container fluid='xl' className='header-container pt-5'>
+          <Container fluid='xl' className='header-container p-0'>
             <Navbar.Brand>
               <img className='header-logo' src={logo}/>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" ><Hamburger className='nav-toogle-icon' color='#BF9B30'/></Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav" >
               <Nav className="nav-container d-flex justify-content-between  w-100">
-                <Nav.Link href="#home" className='nav-link text-uppercase text-white position-relative'>Home</Nav.Link>
-                <Nav.Link href="#about" className='nav-link text-uppercase text-white position-relative'>About</Nav.Link>
+                <Link to='/' className='nav-link text-uppercase text-white  position-relative'>Home</Link>
+                <Link to='#' className='nav-link text-uppercase text-white  position-relative'>About</Link>
                 <NavDropdown title=
                    {<span className='text-uppercase text-white'>Tech <FontAwesomeIcon icon={faChevronDown} className='dropdown-icon ms-1'/></span>}
                    id="basic-nav-dropdown">
@@ -30,12 +31,12 @@ const Header = () => {
                   </NavDropdown.Item>
                   <NavDropdown.Item href="tablets" className='text-uppercase text-white'>Tablets</NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link href="#business" className='nav-link text-uppercase text-white  position-relative'>Business</Nav.Link>
-                <Nav.Link href="#security" className='nav-link text-uppercase text-white  position-relative'>Security</Nav.Link>
-                <Nav.Link href="#sports"   className='nav-link text-uppercase text-white    position-relative'>Sports</Nav.Link>
-                <Nav.Link href="#medical"  className='nav-link text-uppercase text-white   position-relative'>Medical</Nav.Link>
-                <Nav.Link href="#startups" className='nav-link text-uppercase text-white  position-relative'>Startups</Nav.Link>
-                <Nav.Link href="#apps"     className='nav-link text-uppercase text-white  position-relative'>Apps</Nav.Link>
+                <Link to='/business' className='nav-link text-uppercase text-white  position-relative'>Business</Link>
+                <Link to='#' className='nav-link text-uppercase text-white  position-relative'>Security</Link>
+                <Link to='#' className='nav-link text-uppercase text-white  position-relative'>Sports</Link>
+                <Link to='#' className='nav-link text-uppercase text-white  position-relative'>Medical</Link>
+                <Link to='#' className='nav-link text-uppercase text-white  position-relative'>Startups</Link>
+                <Link to='#' className='nav-link text-uppercase text-white  position-relative'>Apps</Link>
                 <NavDropdown title=
                   {<span  className='text-uppercase text-white'>Courses <FontAwesomeIcon icon={faChevronDown} className='dropdown-icon ms-1'/></span>}
                   id="basic-nav-dropdown">

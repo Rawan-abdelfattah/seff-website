@@ -1,0 +1,14 @@
+.background{
+    height: 130vh; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
+.background .background-overlay{
+    background: var(--overlay);
+}
+@media (max-width:992px) {
+    .background{
+        height: 100vh;
+    }   
+}

@@ -22,7 +22,7 @@ export default function Sidebar() {
     <div className="row">
       <div className="col">
         <div className="sidebar d-none d-lg-block">
-          <ul className="list-unstyled Black-div p-4">
+          <ul className="list-unstyled sidebar-bg p-4">
             {/* Users */}
             <li>
               <NavLink

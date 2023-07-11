@@ -1,0 +1,44 @@
+.sidebar-header {
+  background-color: rgba(0, 0, 0, 0.262) !important;
+}
+
+.font-s-20 {
+  font-size: 20px !important;
+}
+
+.sidebar-bg {
+  background-color: var(--alpha-bg) !important;
+
+}
+
+ul li {
+  margin-bottom: 25px;
+}
+
+Table {
+  width: 100% !important;
+  margin: auto;
+}
+
+td {
+
+  background-color: transparent !important;
+  color: white !important;
+  border: 0 !important;
+}
+input{
+  outline: none;
+  border: 0;
+  background-color: rgba(217, 217, 217, 0.17);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  height: 35px;
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  padding: 0 10px;
+  width: 100%;
+}
