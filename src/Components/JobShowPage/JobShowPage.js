@@ -1,7 +1,7 @@
 import React from "react";
-import ButtonTop from "../../Components/ButtonTop/ButtonTop";
-import Header from "../../Components/Header/Header";
-import Footer from "../../Components/Footer/Footer";
+// import ButtonTop from "../../Components/ButtonTop/ButtonTop";
+// import Header from "../../Components/Header/Header";
+// import Footer from "../../Components/Footer/Footer";
 import {FaRegClock} from 'react-icons/fa6';
 
 //fontawesome
@@ -24,7 +24,7 @@ const JobShowPage = () => {
 
   return (
     <>
-      <Header />
+      {/* <Header /> */}
 
       <section className="job-screen-show">
         <div className="bg-layer">
@@ -34,7 +34,9 @@ const JobShowPage = () => {
               <span style={{ disply: "none" }} className="mt-0">
                 <small>Job</small>
               </span>
-               <div></div>
+               <div>
+                
+               </div>
               <p className="line mb-1"></p>
               <span>
                 <small>6th jun 2023</small>
@@ -177,8 +179,8 @@ const JobShowPage = () => {
         </Container>
         </div>
       </section>
-      <ButtonTop />
-      <Footer />
+      {/* <ButtonTop /> */}
+      {/* <Footer /> */}
     </>
   );
 };

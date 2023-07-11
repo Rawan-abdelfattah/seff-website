@@ -1,7 +1,7 @@
 import React from "react";
-import ButtonTop from "../../components/ButtonTop/ButtonTop";
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
+// import ButtonTop from "../../components/ButtonTop/ButtonTop";
+// import Header from "../../components/Header/Header";
+// import Footer from "../../components/Footer/Footer";
 //style
 import "./exsamResults.css";
 import { Col, Container, Row, Button } from "react-bootstrap";
@@ -11,13 +11,28 @@ import {
   faClock,
   faStopwatch20,
 } from "@fortawesome/free-solid-svg-icons";
-import BackgroundLayer from "../BackgroundLayer/BackgroundLayer";
+// import BackgroundLayer from "../BackgroundLayer/BackgroundLayer";
 const primaryColor = "#BF9B30";
+
+const userInfo = {
+  date: '6 jun 2023',
+  courseName : 'Introduction to React js',
+  level : 'lev.1',
+  degree : '20Marks',
+  Instractor : 'Tariq Ali',
+  time : '12:50 PM',
+  duration : '1Hour',
+  NumberOfQuestionsAnswered : '20',
+  NumberOfQuestionsAnsweredCorrectly : '10',
+  NumberOfWrongAnswers : '10',
+  TimeTaken : '50 : 00'
+}
+
 const ExsamResults = () => {
   return (
     <>
-      <Header />
-      <BackgroundLayer />
+      {/* <Header /> */}
+      {/* <BackgroundLayer /> */}
       <section className="exsam-section ">
         <Container className="pt-5">
           <Row className="justify-content-md-center">
@@ -27,7 +42,7 @@ const ExsamResults = () => {
               </span>
               <p className="line mb-1"></p>
               <span>
-                <small>6 jun 2023</small>
+                <small>{userInfo.date}</small>
               </span>
             </Col>
           </Row>
@@ -35,11 +50,11 @@ const ExsamResults = () => {
             <Col xs={12} md={6}>
               <h2>Introduction to React js</h2>
               <span>
-                <small>lev.1,20Marks</small>
+                <small>{userInfo.level},{userInfo.degree}</small>
               </span>
               <p>
                 <span className="gold-color ">Instractor</span> <span> : </span>
-                <small>Tariq Ali</small>
+                <small>{userInfo.Instractor}</small>
               </p>
             </Col>
             <Col xs={12} md={6}>
@@ -66,9 +81,9 @@ const ExsamResults = () => {
                   </Col>
                 </Row>
                 <Row className="justify-content-between">
-                  <Col className="mx-3">Monday,Jun 5th</Col>
-                  <Col>12:50 PM</Col>
-                  <Col className="mx-3">1Hour</Col>
+                  <Col className="mx-3">{userInfo.date}</Col>
+                  <Col>{userInfo.time}</Col>
+                  <Col className="mx-3">{userInfo.duration}</Col>
                 </Row>
               </div>
             </Col>
@@ -78,7 +93,8 @@ const ExsamResults = () => {
           <Row>
             <Col className="time-Exsam" md={12}>
               <div className="time-Exsam  d-flex justify-content-end  mb-4">
-                60&#58;00
+                {/* 60&#58;00 */}
+                {userInfo.TimeTaken}
               </div>
             </Col>
             <Col className="long-line" md={12}></Col>
@@ -138,7 +154,7 @@ const ExsamResults = () => {
                     textAnchor="middle"
                     fill="#fff"
                   >
-                    19/20
+                    {userInfo.NumberOfQuestionsAnsweredCorrectly}/20
                   </text>
                 </svg>
               </div>
@@ -163,7 +179,7 @@ const ExsamResults = () => {
               </p>
             </Col>
             <Col xs={12} md={5} className="final-row">
-              <p className="final-scor fs-4">20 Question</p>
+              <p className="final-scor fs-4">{userInfo.NumberOfQuestionsAnswered} Question</p>
             </Col>
             <Col xs={12} md={5} className="final-row">
               <p className="score-results fs-4">
@@ -171,7 +187,7 @@ const ExsamResults = () => {
               </p>
             </Col>
             <Col xs={12} md={5} className="final-row">
-              <p className="final-scor fs-4">20 Question</p>
+              <p className="final-scor fs-4">{userInfo.NumberOfQuestionsAnsweredCorrectly} Question</p>
             </Col>
             <Col xs={12} md={5} className="final-row ">
               <p className="score-results fs-4">
@@ -179,19 +195,20 @@ const ExsamResults = () => {
               </p>
             </Col>
             <Col xs={12} md={5} className="final-row">
-              <p className="final-scor fs-4">1 Answer</p>
+              <p className="final-scor fs-4">{userInfo.NumberOfWrongAnswers} Answer</p>
             </Col>{" "}
             <Col xs={12} md={5} className="final-row">
               <p className="score-results  fs-4">Time Taken&#58;</p>
             </Col>
             <Col xs={12} md={5} className="final-row">
-              <p className="final-scor fs-4 text-center">60&#58;00</p>
+              {/* <p className="final-scor fs-4 text-center">60&#58;00</p> */}
+              <p className="final-scor fs-4 text-center">{userInfo.TimeTaken}</p>
             </Col>
           </Row>
         </Container>
       </section>
-      <ButtonTop />
-      <Footer />
+      {/* <ButtonTop /> */}
+      {/* <Footer /> */}
     </>
   );
 };
