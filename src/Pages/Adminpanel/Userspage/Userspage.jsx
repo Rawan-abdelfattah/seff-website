@@ -3,24 +3,31 @@ import Title from "../../../Components/Title/Title";
 import { Button, Nav, Stack } from "react-bootstrap";
 import Sidebar from "../../../Components/Sidebar/Sidebar";
 import Users from "../../../Components/UsersList/UsersList";
+import { Link } from "react-router-dom";
+import AdminPanelTitle from "../../../Components/AdminPanelTitle/AdminPanelTitle";
 
 export default function Userspage() {
   return (
     <>
+    <div className="admin-panel">
         <div className=" bg-image" >
         <div className="bg-layer">
       <div className="container">
         <Stack direction="horizontal" gap={2}>
           <div className="">
-            <Title />{" "}
+          <AdminPanelTitle/> 
           </div>
           <div className="p-3 ms-auto">
-            {" "}
+              
             <button
               className="btn Default-bg text-white  d-none d-md-block hover-bg-color transition "
               style={{ marginTop: "250px" }}
             >
+                          <Link to='/new-users'  className="nav-link">
+
               CREATE NEW USERS
+              </Link>
+
             </button>
           </div>
         </Stack>
@@ -43,6 +50,7 @@ export default function Userspage() {
             Upload Certificates
           </Button>
         </Stack>
+      </div>
       </div>
       </div>
       </div>

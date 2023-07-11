@@ -10,7 +10,6 @@ const CreateNewsArticlePage = () => {
       <TopNav/>
       <Header/>
       <CreateNewArticles/>
-      <Footer/>
     </div>
   )
 }

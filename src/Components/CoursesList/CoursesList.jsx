@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Sidebarmobile from "../Sidebarmobile/Sidebarmobile";
 import "../../StyleForAllComponents/StyleForAllComponents.css";
-import { NavDropdown } from "react-bootstrap";
+import { Dropdown, NavDropdown } from "react-bootstrap";
 
 // eslint-disable-next-line import/no-anonymous-default-export
-export default function () {
+export default function CoursesList () {
   const [Search, setSearch] = useState("");
   const [Data, setData] = useState(Array.from({ length: 100 }));
   console.log(Search);
@@ -49,18 +49,21 @@ export default function () {
 
   return (
     <>
-      <div className="container text-white">
+      <div className="admin-list container text-white">
         <div className="col">
           {/* Header && Seacrch */}
           <div className="d-flex flex-column  justify-content-between  flex-lg-row  mt-5">
             <p className="text-white line-after d-none d-md-block font-s-20">Courses</p>
 
             <Sidebarmobile />
-
+       {/* .filter((item) => {
+              return Search.toLowerCase() === ""
+                ? item
+                : item.id.toLowerCase().includes(Search);
+            }) */}
             <div className="search-container  d-flex flex-md-row d-lg-block d-none ">
               <input
-                className="text-white  "
-                id="search"
+                className="search text-white  "
                 type="text"
                 placeholder="Search in Courses"
                 onChange={(e) => {
@@ -69,40 +72,37 @@ export default function () {
               />
               <i class="fa-solid fa-magnifying-glass search-icon main-color "></i>
             </div>
-
-            <div className="drop-down-bg p-3 mb-4 rounded  d-lg-none d-block ">
-              <NavDropdown
-                title={
-                  <span className="text-white text-center font-s-20 fw-bold ">
-                    Courses
-                    <span className="text-end">
-                      <i class="fa-solid fa-chevron-down search-icon  "></i>
-                    </span>
-                  </span>
-                }
-                id="basic-nav-dropdown"
-              >
-                <NavDropdown.Item
-                  to="course1"
-                  className="text-white mt-4 "
-                >
-                  Published Courses
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  to="course2"
-                  className="text-white"
-                >
-                  Scheduled Courses
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  to="course3"
-                  className="text-white"
-                >
-                  Save Drafts
-                </NavDropdown.Item>
+            <Dropdown className="w-100 d-lg-none down d-block mb-4  ">
               
-              </NavDropdown>
-            </div>
+              <Dropdown.Toggle
+                variant="secondary"
+                className=" d-flex drop-down-bg  font-s-20 pt-3 pb-3 "
+                id="dropdown-basic"
+
+              >
+                Courses
+                <span className="text-end">
+                  <i class="fa-solid fa-chevron-down search-icon p-3 "></i>
+                </span>
+              </Dropdown.Toggle>
+
+              <Dropdown.Menu>
+                <Dropdown.Item href="#/action-1" className="text-white font-s-18"  >
+                    
+                  Published Courses
+                </Dropdown.Item>
+                <Dropdown.Item href="#/action-2 " className="text-white font-s-18">
+                  Sheduled
+                </Dropdown.Item>
+                <Dropdown.Item href="#/action-3" className="text-white font-s-18">
+                Courses
+                </Dropdown.Item>
+                <Dropdown.Item href="#/action-3" className="text-white font-s-18">
+                Save Drafts
+                </Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
+          
           </div>
 
 
@@ -124,11 +124,7 @@ export default function () {
                 </div>
               </div>
             </div>
-            {/* .filter((item) => {
-              return Search.toLowerCase() === ""
-                ? item
-                : item.id.toLowerCase().includes(Search);
-            }) */}
+     
             {/* Article Items */}
             {records.map((items, index) => (
               <div key={index} className="my-2  p-2  " >

@@ -1,6 +1,5 @@
 
 import Form2 from '../../Components/Form_Cetificate/Form2';
-import Footer from '../../Components/Footer/Footer';
 import Header from '../../Components/Header/Header';
 import TopNav from '../../Components/TopNav/TopNav';
 
@@ -11,7 +10,7 @@ return(
      <TopNav/>
       <Header/>
        <Form2/>
-       <Footer/>
+       
 
 </div>
 )

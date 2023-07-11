@@ -15,7 +15,6 @@ function Instructor_Portal(){
         <Welcome_Instructor/>
         <Registered_courses_instructor/>
         <Upcoming_courses/>
-        <Footer/>
 
     </div>
  )

@@ -3,25 +3,24 @@ import React from "react";
 import "./Articalpage.css";
 import Sidebar from "../../../Components/Sidebar/Sidebar";
 import Article from "../../../Components/ArticleList/ArticleList";
-import Title from "../../../Components/Title/Title";
 // import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
 import Stack from "react-bootstrap/Stack";
-import ButtonTop from "../../../Components/ButtonTop/ButtonTop";
+import AdminPanelTitle from "../../../Components/AdminPanelTitle/AdminPanelTitle";
 // import Pagination from "../../../components/Pagination/Pagination";
 // import backgroundImage from '../../../assets/images/secondary_background.jpg';
 
 export default function Articalpage() {
   return (
     <>
-  
+    <div className="admin-panel">
     <div className=" bg-image"  >
         <div className="bg-layer" >
           
       <div className="container ">
         <Stack direction="horizontal" gap={2}>
           <div className="">
-            <Title />
+            <AdminPanelTitle/>
           </div>
           <div className="p-3 ms-auto">
             <button className="btn Default-bg text-white  d-none d-md-block hover-bg-color transition" style={{ marginTop: '250px' }}>
@@ -52,7 +51,7 @@ export default function Articalpage() {
       </div>
       </div>
 
-      
+      </div>
     </>
   );
 }

@@ -10,7 +10,6 @@ const UserProfilePage = () => {
       <TopNav/>
       <Header/>
       <UserProfile/>
-      <Footer/>
     </div>
   )
 }

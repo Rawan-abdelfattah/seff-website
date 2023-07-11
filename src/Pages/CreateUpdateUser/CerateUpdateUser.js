@@ -12,7 +12,6 @@ return(
       <TopNav/>
       <Header/>
        <Form1/>
-       <Footer/>
 </div>
 )
  }

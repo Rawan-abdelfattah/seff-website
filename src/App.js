@@ -9,23 +9,22 @@ import Coursespage from "./Pages/Adminpanel/Coursespage/Coursespage";
 import MainLayout from "./Layouts/MainLayout";
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
-import CreateAndUpdatecourses from "./Components/CreateAndUpdatecourses/CreateAndUpdatecourses";
-import JobShowPage from './Components/JobShowPage/JobShowPage';
 import React, { useState } from 'react';
 import CerateUpdateUser from './Pages/CreateUpdateUser/CerateUpdateUser';
 import UplaodCertifiacte from './Pages/UplaodCertifiacte/UploadCertificate';
 import UserProfilePage from './Pages/UserProfilePage/UserProfilePage';
-import Home from './Pages/HomePage/Home';
-import BussinessPage from './Pages/BusinnessPage/Business';
 import Signup from './Pages/SignupPage/Signup';
 import Login from './Pages/LoginPage/Login';
 import NewsPage from './Pages/ShowNewsPage/NewsPage';
 import Exams from './Pages/ExamsPage/Exams';
 import AdminPanel from './Pages/AdminPanelPage/AdminPanel';
 import Contact from './Pages/ContactPage/Contact';
-import CreateNewsArticlePage from './Pages/CreateNewsArticlePage/CreateNewsArticlePage';
 import Jobs from "./Pages/Jobs/Jobs";
 import Courses from "./Pages/Courses/Courses";
+import ShowNewsPage from "./Pages/ShowNewsPage/NewsPage";
+import JobShowPage from './Components/JobShowPage/JobShowPage';
+import CreateNewsArticlePage from './Pages/CreateNewsArticlePage/CreateNewsArticlePage';
+import BussinessPage from './Pages/BusinnessPage/Business';
 
 
 
@@ -40,7 +39,22 @@ function App() {
         { path: "jobs", element: <Jopspage /> },
         { path: "courses", element: <Coursespage /> },
         { path: "job", element: <Jobs /> },
-        { path: "course", element: <Courses /> },
+        { path: "course", element: <Courses /> },        
+        { path: "Student_Portal", element: <Student_Portal /> },
+        { path: "UplaodCertifiacte", element: <UplaodCertifiacte /> },
+        { path: "UserProfilePage", element: <UserProfilePage /> },
+        { path: "Instructor_Portal", element: <Instructor_Portal /> },        
+        { path: "CerateUpdateUser", element: <CerateUpdateUser /> },
+        { path: "Signup", element: <Signup /> },
+        { path: "Login", element: <Login /> },
+        { path: "NewsPage", element: <NewsPage /> },
+        { path: "Exams", element: <Exams /> },
+        { path: "AdminPanel", element: <AdminPanel /> },
+        { path: "Contact", element: <Contact /> },
+        { path: "ShowNewsPage", element: <ShowNewsPage /> },
+        { path: "CreateNewsArticlePage", element: <CreateNewsArticlePage /> },        
+        // { path: "JobShowPage", element: <JobShowPage /> },
+        // { path: "BussinessPage", element: <BussinessPage /> },
       ],
     },
   ]);

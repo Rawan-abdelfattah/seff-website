@@ -86,3 +86,19 @@
     right: 20px;
     transform: translateY(-50%);
     }
+
+    .horizontal-scroll-container {
+      overflow-x: auto;
+      white-space: nowrap;
+      scroll-behavior: smooth; 
+
+       
+    }
+    
+    .horizontal-scroll-content {
+      display: inline-flex;
+    }
+    .horizontal-scroll-container::-webkit-scrollbar {
+      display: none; 
+    }
+    

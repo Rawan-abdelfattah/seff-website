@@ -1,19 +1,19 @@
 import React from "react";
-import Title from "../../../Components/Title/Title";
 import { Button, Nav, Stack } from "react-bootstrap";
 import Sidebar from "../../../Components/Sidebar/Sidebar";
 import Jobs from "../../../Components/JobsList/JobsList";
-import { NavLink } from "react-router-dom";
+import AdminPanelTitle from "../../../Components/AdminPanelTitle/AdminPanelTitle";
 
 export default function Jopspage() {
   return (
     <>
+    <div className="admin-panel">
         <div className=" bg-image"  >
         <div className="bg-layer" >
       <div className="container">
         <Stack direction="horizontal" gap={2}>
           <div className="">
-            <Title />{" "}
+          <AdminPanelTitle/>
           </div>
           <div className="p-3 ms-auto">
             {" "}
@@ -45,6 +45,7 @@ export default function Jopspage() {
             CREATE NEW Job
           </Button>
         </Stack>
+      </div>
       </div>
       </div>
       </div>

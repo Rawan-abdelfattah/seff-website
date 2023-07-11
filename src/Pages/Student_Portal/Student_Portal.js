@@ -16,7 +16,6 @@ function Student_Portal(){
         <Registered_courses/>
         <Circle_Progress/>
         <Certifications/>
-        <Footer/>
 
     </div>
  )
