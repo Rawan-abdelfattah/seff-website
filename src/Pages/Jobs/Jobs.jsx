@@ -1,11 +1,8 @@
 import React from "react";
-// import './jobs.css';
-import Header from "../../Components/Header/Header";
-import Footer from "../../Components/Footer/Footer";
 import JobCard from "../../Components/JobCard/JobCard";
 import JobScreen from "../../Components/JobScreen/JobScreen";
 import MenuJob from "../../Components/MenuJob/MenuJob";
-import { Card, Button, Container, Col, Row, Form, Stack } from "react-bootstrap";
+import {   Button, Container, Col, Row,Stack } from "react-bootstrap";
 export default function () {
   return (
     <>

@@ -3,6 +3,7 @@ import { Button, Nav, Stack } from "react-bootstrap";
 import Sidebar from "../../../Components/Sidebar/Sidebar";
 import Courses from "../../../Components/CoursesList/CoursesList";
 import AdminPanelTitle from "../../../Components/AdminPanelTitle/AdminPanelTitle";
+import { Link } from "react-router-dom";
 
 export default function Coursespage() {
   return (
@@ -17,8 +18,10 @@ export default function Coursespage() {
           </div>
           <div className="p-3 ms-auto">
             
-            <button className="btn Default-bg text-white  d-none d-md-block hover-bg-color transition" style={{ marginTop: '250px' }}>
-              CREATE NEW Course
+            <button className="btn Default-bg text-white  d-none d-lg-block hover-bg-color transition" style={{ marginTop: '250px' }}>
+            <Link to='/CreateAndUpdatecourses'  className="nav-link">
+
+CREATE NEW COURSES</Link>
             </button>
           </div>
         </Stack>
@@ -37,7 +40,10 @@ export default function Coursespage() {
       <div className="container ">
         <Stack gap={2} className="col mx-auto d-block d-lg-none">
           <Button variant="" className="Default-bg text-white  mb-4 hover-bg-color transition w-100">
-            CREATE NEW COURSES
+          <Link to='/CreateAndUpdatecourses'  className="nav-link">
+
+          CREATE NEW COURSES</Link>
+            
           </Button>
         </Stack>
       </div>

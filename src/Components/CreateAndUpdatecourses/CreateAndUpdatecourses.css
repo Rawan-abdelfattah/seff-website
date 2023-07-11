@@ -1,0 +1,78 @@
+.create-course  .upload-file {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 23px 13px;
+    border: 1px dashed #708037;
+    
+}
+
+.create-course .upload-icon {
+    font-size: 30px;
+    color: #708037;
+}
+
+.create-course .drag-title {
+    font-size: 30px;
+}
+
+.create-course .drag-title span {
+    color: #708037;
+}
+.create-course .drag-title{
+    font-size: 14px;
+}
+.create-course .drag-text{
+    font-size: 10px;
+}
+
+.create-course .title_add {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.create-course .title_add::after {
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    height: 2px;
+    width: 270px;
+    background-color: #bacc16;
+}
+
+.create-course label {
+    margin-bottom: 5px;
+}
+
+.create-course .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create-course .section-header button {
+    padding: 5px 45px;
+    background-color: #afa531;
+    color: white;
+    border-radius: 5px;
+}
+
+.create-course .textarea_about_company {
+    width: 100%;
+    height: 120px;
+}
+.create-course .save{
+    padding: 5px 45px;
+    background-color: #afa531;
+    color: white;
+    border-radius: 5px;
+}
+.create-course .cancel{
+    padding: 5px 45px;
+    background-color: #555552;
+    color: white;
+    border-radius: 5px;
+}

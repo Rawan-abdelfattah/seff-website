@@ -1,20 +1,19 @@
 @import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
 
-.job-screen {
-  background-color:transparent;
+.job-screens {
   color: #fff;
   font-family: var(--font-family);
 }
-.job-screen .form-control {
+.job-screens .form-control {
   width: 70%;
   border-radius: 5px 0px 0px 5px / 5px 0px 0px 5px;
   display: inline-block;
 }
-.job-screen .line-after{
+.job-screens .line-after{
   position: relative;
   }
 
-  .job-screen .line-after::after {
+  .job-screens .line-after::after {
   content: "";
   width: 80px;
   border-bottom: 1px solid var(--Primary);
@@ -22,38 +21,38 @@
   left: 0px;
   bottom: -5px;
   }
-.job-screen .btn:hover {
+.job-screens .btn:hover {
   background-color: var(--btn-hover);
 } 
 @media (max-width: 767px) {
-  .job-screen .form-control {
+  .job-screens .form-control {
     width: 100%;
     border-radius: 5px;
     height: 40px;
     border-radius: 5px;
   }
-  .job-screen .job-screen .btn1 {
+  .job-screens .job-screens .btn1 {
     width: 100%;
     border-radius: 5px;
   }
-  .job-screen .jobs-details{text-align: left !important;
+  .job-screens .jobs-details{text-align: left !important;
 }
-.job-screen .menu-job{display: none;}
+.job-screens .menu-job{display: none;}
 }
-.job-screen .input-sub {
+.job-screens .input-sub {
   background: rgba(128, 128, 128, 0.438);
   border: none;
   color: var(--white);
   border-radius: 6px;
 }
 
-.job-screen .input-sub:focus {
+.job-screens .input-sub:focus {
   border: 1px solid var(--btn-defauit);
   box-shadow: none;
   background-color: var(--Gradient-bg);
   color: var(--white);
 }
-.job-screen .btn-subscribe {
+.job-screens .btn-subscribe {
   background-color: var(--btn-defauit);
   border: 0px;
   font-weight: var(--fw-600);
@@ -68,12 +67,12 @@
 
 }
 
-.job-screen .btn-subscribe:focus,
-.job-screen .btn-subscribe:hover {
+.job-screens .btn-subscribe:focus,
+.job-screens .btn-subscribe:hover {
   background-color: var(--btn-hover) !important;
 }
 
-.job-screen .input-sub::placeholder {
+.job-screens .input-sub::placeholder {
   color: white;
   font-size: 20px;
   }

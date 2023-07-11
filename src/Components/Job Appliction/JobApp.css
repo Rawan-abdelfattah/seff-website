@@ -388,7 +388,6 @@ bottom: 15px !important;
   }
 }
 
-/* Mobile View */
 @media (max-width: 767px) {
   .form-inline {
     margin-top: 10px;

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink ,useLocation  } from "react-router-dom";
+import { NavLink ,useLocation ,Link } from "react-router-dom";
 import "./Slider.css";
 import { Button } from "react-bootstrap";
 
@@ -154,8 +154,11 @@ export default function Sidebar() {
                   </NavLink>
                 </li>
                 <div className="row "> {location.pathname === '/' ?  <Button variant="" className="Default-bg text-white mt-4 w-100  hover-bg-color transition">
-                Upload Certificates
-          </Button> : '' }</div>
+                <Link to='/UplaodCertifiacte'  className="nav-link">
+
+Upload Certificates
+</Link>
+</Button> : '' }</div>
                
                
               </ul>

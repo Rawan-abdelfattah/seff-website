@@ -1,5 +1,4 @@
 import React from "react";
-// import './JobsCard.css';
 import "./JobCard.css";
 import { Card, Button, Container, Col, Row, Form } from "react-bootstrap";
 import itlogo from "../../assets/images/it.jpg";

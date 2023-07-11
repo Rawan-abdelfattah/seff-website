@@ -3,6 +3,7 @@ import { Button, Nav, Stack } from "react-bootstrap";
 import Sidebar from "../../../Components/Sidebar/Sidebar";
 import Jobs from "../../../Components/JobsList/JobsList";
 import AdminPanelTitle from "../../../Components/AdminPanelTitle/AdminPanelTitle";
+import { Link } from "react-router-dom";
 
 export default function Jopspage() {
   return (
@@ -18,10 +19,13 @@ export default function Jopspage() {
           <div className="p-3 ms-auto">
             {" "}
             <button
-              className="btn Default-bg text-white  d-none d-md-block  hover-bg-color transition"
+              className="btn Default-bg text-white  d-none d-lg-block  hover-bg-color transition"
               style={{ marginTop: "250px" }}
             >
-              CREATE NEW JOB
+              <Link to='/CreateAndUpdatejobs'  className="nav-link">
+
+  CREATE NEW JOB</Link>
+            
             </button>
           </div>
         </Stack>
@@ -34,15 +38,16 @@ export default function Jopspage() {
             <Jobs />
           </div>
         </div>
-        {/* <div className="col">
-         <Pagination/>
-       </div> */}
+
       </div>
 
       <div className="container ">
         <Stack gap={2} className="col  mx-auto d-block d-lg-none">
           <Button variant="" className="Default-bg text-white hover-bg-color transition mb-4 w-100">
-            CREATE NEW Job
+          <Link to='/CreateAndUpdatejobs'  className="nav-link">
+
+CREATE NEW Job</Link>
+           
           </Button>
         </Stack>
       </div>

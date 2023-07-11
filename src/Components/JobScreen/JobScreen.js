@@ -1,10 +1,10 @@
 import React from "react";
 import "./JobScreen.css";
-import { Container, Col, Row, Form, Button } from "react-bootstrap";
+import { Col, Row, Form, Button } from "react-bootstrap";
 const JobScreen = () => {
   return (
     <>
-      <section className="job-screen container " style={{ marginTop: "150px" }}>
+      <section className="job-screens container " style={{ marginTop: "150px" }}>
           <Row className="justify-content-md-center">
             <Col>
               <span style={{ disply: "none" }} className="mt-0">

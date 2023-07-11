@@ -52,7 +52,10 @@ export default function Articalpage() {
       <div className="container ">
         <Stack gap={2} className="col  mx-auto d-block d-lg-none">
           <Button variant="" className="Default-bg text-white  hover-bg-color transition mb-4 w-100">
+          <Link to='/CreateNewsArticlePage'  className="nav-link">
+
             CREATE NEW ARTICLE
+            </Link>
           </Button>
         </Stack>
       </div>

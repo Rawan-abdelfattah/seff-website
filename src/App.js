@@ -24,7 +24,10 @@ import Courses from "./Pages/Courses/Courses";
 import ShowNewsPage from "./Pages/ShowNewsPage/NewsPage";
 import CreateNewsArticlePage from './Pages/CreateNewsArticlePage/CreateNewsArticlePage';
 import BussinessPage from './Pages/BusinnessPage/Business';
-import JobShowPage from './Components/JobShowPage/JobShowPage';
+
+
+import CreateAndUpdatecourses from './Components/CreateAndUpdatecourses/CreateAndUpdatecourses';
+import CreateAndUpdatejobs from './Components/CreateAndUpdatejobs/CreateAndUpdatejobs';
 
 
 
@@ -55,6 +58,10 @@ function App() {
         { path: "CreateNewsArticlePage", element: <CreateNewsArticlePage /> },        
         // { path: "JobShowPage", element: <JobShowPage /> },
         { path: "BussinessPage", element: <BussinessPage /> },
+        { path: "CreateAndUpdatecourses", element: <CreateAndUpdatecourses /> },
+        { path: "CreateAndUpdatejobs", element: <CreateAndUpdatejobs /> },
+        // { path: "CourseShowPageEnrolled", element: <CourseShowPageEnrolled /> },
+        // { path: "NewsShowPage", element: <NewsShowPage /> },
       ],
     },
   ]);
