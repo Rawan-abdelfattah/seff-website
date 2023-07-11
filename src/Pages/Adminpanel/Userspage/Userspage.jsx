@@ -35,11 +35,11 @@ export default function Userspage() {
       </div>
 
       <div className="container ">
-        <Stack gap={2} className="col-md-5 mx-auto d-md-block d-md-none ">
-          <Button variant="" className="Default-bg text-white hover-bg-color transition">
+        <Stack gap={2} className=" mx-auto d-block d-lg-none ">
+          <Button variant="" className="Default-bg text-white hover-bg-color transition w-100 mb-4" >
             CREATE NEW User
           </Button>
-          <Button variant="" className="text-white main-border-color mb-4 hover-bg-color transition">
+          <Button variant="" className="text-white main-border-color mb-4 hover-bg-color transition w-100">
             Upload Certificates
           </Button>
         </Stack>

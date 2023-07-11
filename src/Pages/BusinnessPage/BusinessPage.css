@@ -1,0 +1,9 @@
+.bussiness-content{
+    background-color: var(--main-bg);
+    height: 2300px;
+}
+@media (max-width:992px) {
+    .bussiness-content{
+        height: auto;
+    }  
+}

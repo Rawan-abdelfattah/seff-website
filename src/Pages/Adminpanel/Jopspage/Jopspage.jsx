@@ -40,8 +40,8 @@ export default function Jopspage() {
       </div>
 
       <div className="container ">
-        <Stack gap={2} className="col-md-5 mx-auto d-md-block d-md-none">
-          <Button variant="" className="Default-bg text-white hover-bg-color transition mb-4">
+        <Stack gap={2} className="col  mx-auto d-block d-lg-none">
+          <Button variant="" className="Default-bg text-white hover-bg-color transition mb-4 w-100">
             CREATE NEW Job
           </Button>
         </Stack>

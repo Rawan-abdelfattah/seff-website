@@ -35,8 +35,8 @@ export default function Coursespage() {
       </div>
 
       <div className="container ">
-        <Stack gap={2} className="col-md-5 mx-auto d-md-block d-md-none">
-          <Button variant="" className="Default-bg text-white  mb-4 hover-bg-color transition">
+        <Stack gap={2} className="col mx-auto d-block d-lg-none">
+          <Button variant="" className="Default-bg text-white  mb-4 hover-bg-color transition w-100">
             CREATE NEW COURSES
           </Button>
         </Stack>

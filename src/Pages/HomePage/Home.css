@@ -1,0 +1,9 @@
+.home{
+    background-color: var(--main-bg);
+    height: 2300px;
+}
+@media (max-width:992px) {
+    .home {
+        height: auto;
+    }  
+}
