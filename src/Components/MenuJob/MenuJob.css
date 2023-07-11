@@ -5,22 +5,22 @@
     color: var(--white);
     border-radius: 5px;
   }
-  .menu-section {
+  .menu-job .menu-section {
     padding: 20px;
   }
-  .contacts-job {
+  .menu-job .contacts-job {
     background-color: rgba(0, 0, 0, 0.19);
     width: 891px;
     height: 775px;
   }
-  .fitter-container {
+  .menu-job .fitter-container {
     width: 310px;
     height: 62px;
     background-color: rgba(17, 17, 17, 0.56);
   }
   /* .filter {
   } */
-  .clear-all {
+  .menu-job .clear-all {
     color: var(--Primary);
     border-radius: 5px;
   }
@@ -29,7 +29,7 @@
     color: #fff;
   } */
   /*--------Select form*/
-  .form-select {
+  .menu-job .form-select {
     width: 95%;
     height: 49px;
     border-radius: 5px;
@@ -41,7 +41,7 @@
     border-bottom: 1px solid #efefef !important;
   }
   
-  .form-select:focus {
+  .menu-job .form-select:focus {
     background-color: rgba(86, 85, 85, 0.079);
     text-align: center;
     background-color: rgba(217, 217, 217, 0.17);
@@ -49,21 +49,21 @@
     outline: 0;
     transition: all 0.3s ease-in;
   }
-  option.options-location {
+  .menu-job option.options-location {
     color: #fff;
     background-color: #292828 !important;
   }
   /* Check boxs */
-  .form-check-input{background-color: transparent;
+  .menu-job .form-check-input{background-color: transparent;
     border-color: var(--white);}
-  .form-check-input:checked {
+    .menu-job .form-check-input:checked {
     background-color: #fd9d0d;
   }
 
-  .input-group {
+  .menu-job  .input-group {
     width: 80%;
   }
-  .input-group-text {
+  .menu-job .input-group-text {
     text-align: center;
   
     background-color: var(--Primary);
@@ -72,7 +72,7 @@
     font-weight: var(--fw-600);
     justify-content: center;
   }
-  input.empty {
+  .menu-job  input.empty {
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
@@ -80,7 +80,7 @@
     color: red;
   }
   
-  .mainLoginInput::-webkit-input-placeholder {
+  .menu-job  .mainLoginInput::-webkit-input-placeholder {
     font-family: FontAwesome;
     font-weight: normal;
     overflow: visible;
@@ -91,7 +91,7 @@
     color: var(--Primary);
   }
   
-  .mainLoginInput::-moz-placeholder {
+  .menu-job .mainLoginInput::-moz-placeholder {
     font-family: FontAwesome;
     font-weight: normal;
     overflow: visible;
@@ -102,7 +102,7 @@
     color: hsl(9, 40%, 60%);
   }
   
-  .mainLoginInput:-ms-input-placeholder {
+  .menu-job .mainLoginInput:-ms-input-placeholder {
     font-family: FontAwesome;
     font-weight: normal;
     overflow: visible;

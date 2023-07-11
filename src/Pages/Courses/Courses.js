@@ -54,6 +54,9 @@ function Courses() {
   };
   return (
     <>
+    <div className="courses-page">
+
+  
       <div className=" bg-image">
         <div className="bg-layer">
           
@@ -91,9 +94,9 @@ function Courses() {
                 >
                   <div className="horizontal-scroll-content">
                     {Data.map((items, index) => (
-                      <div key={index} id="" className="col my-2  p-2 ">
+                      <div key={index} id="" className=" col my-2  p-2 ">
                         <Col className="">
-                          <Card>
+                          <Card >
                             <Card>
                               <Card.Img
                                 variant="top"
@@ -268,7 +271,7 @@ function Courses() {
           
         </div>
       </div>
-
+      </div>
     </>
   );
 }

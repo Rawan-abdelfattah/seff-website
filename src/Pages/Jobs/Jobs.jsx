@@ -9,8 +9,11 @@ import { Card, Button, Container, Col, Row, Form, Stack } from "react-bootstrap"
 export default function () {
   return (
     <>
-      <div className=" bg-image">
-        <div className="bg-layer">
+    <div className="jobs">
+
+    
+      <div className="  bg-image">
+        <div className=" bg-layer">
           {/* <Header /> */}
           <div style={{ height: "100px" }}></div>
           <JobScreen />
@@ -35,7 +38,7 @@ export default function () {
         </div>
         
  
-      </div>  
+      </div>  </div>
     </>
   );
 }

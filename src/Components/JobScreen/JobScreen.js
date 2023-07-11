@@ -4,8 +4,7 @@ import { Container, Col, Row, Form, Button } from "react-bootstrap";
 const JobScreen = () => {
   return (
     <>
-      <section className="job-screen " style={{ marginTop: "150px" }}>
-        <Container className=" ">
+      <section className="job-screen container " style={{ marginTop: "150px" }}>
           <Row className="justify-content-md-center">
             <Col>
               <span style={{ disply: "none" }} className="mt-0">
@@ -40,8 +39,7 @@ const JobScreen = () => {
                     
 
           </Row>
-        </Container>
-      </section>
+       </section>
     </>
   );
 };

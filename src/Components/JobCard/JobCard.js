@@ -10,7 +10,8 @@ const JobCard = () => {
   return (
     <>
       {Data.map((items, index) => (
-        <Card className=" gy-4 p-2 mb-4">
+        <div className="job-card ">
+        <Card className="gy-4 p-2 mb-4">
           <Card.Body className=" ">
             <div className="row">
               <div className="col-lg-1 col-12">
@@ -74,6 +75,7 @@ const JobCard = () => {
             </div>
           </Card.Body>
         </Card>
+        </div>
       ))}
     </>
   );

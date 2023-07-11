@@ -22,9 +22,9 @@ import Contact from './Pages/ContactPage/Contact';
 import Jobs from "./Pages/Jobs/Jobs";
 import Courses from "./Pages/Courses/Courses";
 import ShowNewsPage from "./Pages/ShowNewsPage/NewsPage";
-import JobShowPage from './Components/JobShowPage/JobShowPage';
 import CreateNewsArticlePage from './Pages/CreateNewsArticlePage/CreateNewsArticlePage';
 import BussinessPage from './Pages/BusinnessPage/Business';
+import JobShowPage from './Components/JobShowPage/JobShowPage';
 
 
 
@@ -54,7 +54,7 @@ function App() {
         { path: "ShowNewsPage", element: <ShowNewsPage /> },
         { path: "CreateNewsArticlePage", element: <CreateNewsArticlePage /> },        
         // { path: "JobShowPage", element: <JobShowPage /> },
-        // { path: "BussinessPage", element: <BussinessPage /> },
+        { path: "BussinessPage", element: <BussinessPage /> },
       ],
     },
   ]);

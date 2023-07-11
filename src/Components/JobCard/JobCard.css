@@ -1,29 +1,29 @@
 /* body{height: 3000px;} */
-.card {
+.job-card .card {
   background-color: rgba(26, 25, 25, 0.8) !important;
 
   color: white !important;
 }
-.btn1 {
+.job-card .btn1 {
   background-color: var(--btn-defauit) !important;
   border: none !important;
 }
-.card-text  {
+.job-card .card-text  {
   line-height: 10px !important;
 }
-.btn2 {
+.job-card .btn2 {
   background: transparent !important;
   border-color: var(--Primary) !important;
   float: "right";
 }
 
-.itlogo {
+.job-card .itlogo {
   width: 3.3rem;
   height: 40px;
 }
-.card  {
+.job-card .card  {
   font-weight: var(--fw-400);
 }
-.card-subtitle {
+.job-card .card-subtitle {
   font-size: var(--p-14);
 }

@@ -20,10 +20,10 @@ export default function Userspage() {
           <div className="p-3 ms-auto">
               
             <button
-              className="btn Default-bg text-white  d-none d-md-block hover-bg-color transition "
+              className="btn Default-bg text-white   hover-bg-color transition d-lg-block d-none"
               style={{ marginTop: "250px" }}
             >
-                          <Link to='/new-users'  className="nav-link">
+                          <Link to='/CerateUpdateUser'  className="nav-link">
 
               CREATE NEW USERS
               </Link>
@@ -44,10 +44,18 @@ export default function Userspage() {
       <div className="container ">
         <Stack gap={2} className=" mx-auto d-block d-lg-none ">
           <Button variant="" className="Default-bg text-white hover-bg-color transition w-100 mb-4" >
+          <Link to='/CerateUpdateUser'  className="nav-link">
+
             CREATE NEW User
+            </Link>
           </Button>
-          <Button variant="" className="text-white main-border-color mb-4 hover-bg-color transition w-100">
+
+          <Button variant="" className="text-white main-border-color mb-4 hover-bg-color transition w-100">          
+          <Link to='/UplaodCertifiacte'  className="nav-link">
+
             Upload Certificates
+            </Link>
+
           </Button>
         </Stack>
       </div>

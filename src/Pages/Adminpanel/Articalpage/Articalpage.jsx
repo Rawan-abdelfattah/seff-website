@@ -7,6 +7,7 @@ import Article from "../../../Components/ArticleList/ArticleList";
 import Button from "react-bootstrap/Button";
 import Stack from "react-bootstrap/Stack";
 import AdminPanelTitle from "../../../Components/AdminPanelTitle/AdminPanelTitle";
+import { Link } from "react-router-dom";
 // import Pagination from "../../../components/Pagination/Pagination";
 // import backgroundImage from '../../../assets/images/secondary_background.jpg';
 
@@ -23,8 +24,15 @@ export default function Articalpage() {
             <AdminPanelTitle/>
           </div>
           <div className="p-3 ms-auto">
-            <button className="btn Default-bg text-white  d-none d-md-block hover-bg-color transition" style={{ marginTop: '250px' }}>
-              CREATE NEW ARTICAL
+          <button
+              className="btn Default-bg text-white   hover-bg-color transition d-lg-block d-none"
+              style={{ marginTop: "250px" }}
+            >
+                          <Link to='/CreateNewsArticlePage'  className="nav-link">
+
+              CREATE NEW ARTICLE
+              </Link>
+
             </button>
           </div>
         </Stack>
