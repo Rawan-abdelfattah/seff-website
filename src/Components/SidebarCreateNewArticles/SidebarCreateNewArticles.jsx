@@ -27,7 +27,7 @@ export default function Sidebar() {
             <li>
               <NavLink
                 exact
-                to="/"
+                to="/users"
                 className="d-block sidebar-header p-3 nav-link  font-s-20"
                 style={{ color: location.pathname === '/' ? activeLinkColor : 'white' }}
                 onClick={handleNestedClick}

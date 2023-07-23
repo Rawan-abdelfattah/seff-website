@@ -1,5 +1,5 @@
 .create-job .section-header{
-    margin-top:130px;
+    /* margin-top:130px; */
     color:#fff;
 }
 .create-job .Admin label{
@@ -12,13 +12,14 @@
     justify-content: center;
     text-align: center;
     padding: 23px 13px;
-    border: 1px dashed #708037;
+    border: 1px dashed #bf9b30;
+    border-radius: 10px;
     
 }
 
 .create-job .upload-icon {
     font-size: 30px;
-    color: #708037;
+    color: #bf9b30;
 }
 .create-job .company-logo{
     color:#fff;
@@ -27,7 +28,7 @@
 
 
 .create-job .drag-title span {
-    color: #708037;
+    color: #bf9b30;
 }
 .create-job .drag-title{
     font-size: 14px;
@@ -49,8 +50,8 @@
     bottom: -7px;
     left: 0;
     height: 2px;
-    width: 270px;
-    background-color: #bacc16;
+    width: 175px;
+    background-color: #bf9b30;
 }
 
 .create-job label {
@@ -65,9 +66,11 @@
 
 .create-job .section-header button {
     padding: 5px 45px;
-    background-color: #afa531;
+    background-color: #bf9b30;
     color: white;
-    border-radius: 5px;
+    border-radius: 4px;
+    border: 1px solid  transparent;
+
 }
 
 .create-job .textarea_about_company {
@@ -75,16 +78,53 @@
     height: 120px;
 }
 .create-job .save{
-    padding: 5px 45px;
-    background-color: #afa531;
+    padding: 10px 45px;
+    background-color: #bf9b30;
     color: white;
-    border-radius: 5px;
-    width: 25%;
+    border-radius: 7px;
+    min-width: 20%;
+    font-size: 18px;
+    border: 1px solid  transparent;
+
 }
 .create-job .cancel{
     padding: 5px 45px;
-    background-color: #555552;
+    background-color: #817f7f;
     color: white;
-    border-radius: 5px;
-    width: 25%;
+    border-radius: 7px;
+    min-width: 20%;
+    font-size: 18px;
+    border: 1px solid  transparent;
+
+
+}
+.create-job .line-after  {
+  position: relative;
+}
+
+.create-job .line-after::after {
+  content: "";
+  width: 80px;
+  border-bottom: 1px solid var(--Primary);
+  position: absolute;
+  left: 0px;
+  bottom: -5px;
+}
+
+.create-job  .grey-color{
+      background: rgba(187, 186, 186, 0.189);
+      border: 1px solid transparent;
+    
+}
+
+.create-job  .react-btn button{
+    border: 1px solid #bf9b30;
+    border-radius: 30px;
+    min-width: 20%;
+
+}
+.create-job  .react-btn{
+    background: rgba(187, 186, 186, 0.189);
+    padding: 10px;
+    border-radius: 10px;
 }

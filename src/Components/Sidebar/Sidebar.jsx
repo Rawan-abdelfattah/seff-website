@@ -27,9 +27,9 @@ export default function Sidebar() {
             <li>
               <NavLink
                 exact
-                to="/"
+                to="/users"
                 className="d-block sidebar-header p-3 nav-link  font-s-20"
-                style={{ color: location.pathname === '/' ? activeLinkColor : 'white' }}
+                style={{ color: location.pathname === '/users' ? activeLinkColor : 'white' }}
                 onClick={handleNestedClick}
               >
                 Users
@@ -55,7 +55,8 @@ export default function Sidebar() {
                   </NavLink>
                 </li>
                 <li  onClick={()=>updateToggle('students')}>
-                  <NavLink to="/" className="nav-link">
+                  <NavLink to="/StudentUsers" className="nav-link"
+                  style={{ color: location.pathname === '/StudentUsers' ? activeLinkColor : 'white' }}>
                     Students
                   </NavLink>
                 </li>
@@ -153,7 +154,7 @@ export default function Sidebar() {
                     Save Drafts
                   </NavLink>
                 </li>
-                <div className="row "> {location.pathname === '/' ?  <Button variant="" className="Default-bg text-white mt-4 w-100  hover-bg-color transition">
+                <div className="row "> {location.pathname === '/StudentUsers' ?  <Button variant="" className="Default-bg text-white mt-4 w-100  hover-bg-color transition">
                 <Link to='/UplaodCertifiacte'  className="nav-link">
 
 Upload Certificates

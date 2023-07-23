@@ -13,7 +13,7 @@
       <Nav defaultActiveKey="/home" as="ul"className="d-flex flex-nowrap d-flex justify-content-between " >
         
           <Nav.Item as="li">
-          <NavLink exact to="/" className="nav-link "   style={{ color: location.pathname === '/' ? '#BF9B30' : 'white' }}>
+          <NavLink exact to="/users" className="nav-link "   style={{ color: location.pathname === '/users' ? '#BF9B30' : 'white' }}>
             Users
           </NavLink>
         </Nav.Item>

@@ -5,6 +5,7 @@ import { Dropdown, NavDropdown } from "react-bootstrap";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default function UsersList() {
@@ -58,7 +59,7 @@ export default function UsersList() {
           {/* Header && Seacrch */}
           <div className="d-flex flex-column  justify-content-between  flex-lg-row  mt-5 ">
             <p className="text-white line-after d-none d-md-block  font-s-20">
-              Users - Studensts
+              Users 
             </p>
             <Sidebarmobile />
 
@@ -101,7 +102,7 @@ export default function UsersList() {
                 <Dropdown.Item href="#/action-3" className="text-white font-s-18">
                 Instructors
                 </Dropdown.Item>
-                <Dropdown.Item href="#/action-3" className="text-white font-s-18">
+                <Dropdown.Item as={Link} to="/StudentUsers"  className="text-white font-s-18">
                 Students
                 </Dropdown.Item>
               </Dropdown.Menu>

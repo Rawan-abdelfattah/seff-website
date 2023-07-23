@@ -10,7 +10,6 @@ export default function ArticlesList() {
 
   const [Search, setSearch] = useState("");
   const [Data, setData] = useState(Array.from({ length: 100 }));
-  console.log(Search);
   const [CurrentPage, setCurrentPage] = useState(1);
   const recordsPerPages = 6;
   const lastIndex = CurrentPage * recordsPerPages;
@@ -33,18 +32,18 @@ export default function ArticlesList() {
   if (endButton - startButton + 1 < maxButtonsToRender) {
     startButton = Math.max(endButton - maxButtonsToRender + 1, 1);
   }
-
+  function nextPage() {
+    if (CurrentPage !== lastIndex) {
+      setCurrentPage(CurrentPage + 1);
+    }
+  }
   function prePage() {
     if (CurrentPage !== firstIndex) {
       setCurrentPage(CurrentPage - 1);
     }
   }
 
-  function nextPage() {
-    if (CurrentPage !== lastIndex) {
-      setCurrentPage(CurrentPage + 1);
-    }
-  }
+
 
   function changeCurrentPage(id) {
     setCurrentPage(id);
